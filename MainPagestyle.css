@@ -18,7 +18,7 @@ nav a {
     margin-right: auto;
 }
 
-nav ul li a:hover{
+.link:hover{
       cursor:pointer;
         background:black;
         color:white;
