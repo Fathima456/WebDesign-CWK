@@ -18,6 +18,9 @@ nav a {
     margin-right: auto;
 }
 
+nav a : hover{
+  background-color: black;
+}
 
 
 
