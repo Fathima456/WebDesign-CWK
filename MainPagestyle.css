@@ -20,6 +20,7 @@ ul {
 
 li {
   float: left;
+  align-items: center;
 }
 
 li a {
