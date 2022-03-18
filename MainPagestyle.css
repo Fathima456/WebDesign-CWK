@@ -18,8 +18,10 @@ nav a {
     margin-right: auto;
 }
 
-nav a : hover{
-  background-color: black;
+.link:hover{
+      cursor:pointer;
+        background:black;
+        color:white;
 }
 
 
