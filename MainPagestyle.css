@@ -3,20 +3,7 @@ color:black;
 }
 
 
-#navbar{
-  padding:25px;
-  background-color: red;
-  color: white;
-  cursor: pointer;
-  text-align: center;
-  padding: 15px 32px;
-  font-size: 16px;
-  margin: 30px;
-  margin-top:300px;
-  
-  
-  
-}
+
 .menu.ul{
 list-style-type: none;
   margin: 0;
