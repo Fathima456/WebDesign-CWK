@@ -13,11 +13,13 @@ ul {
   position: fixed;
   top: 20;
   width: 80%;
-  text-align:center;
+  
    
 }
 
-
+li {
+  float: left;
+}
 
 li a {
   display: block;
