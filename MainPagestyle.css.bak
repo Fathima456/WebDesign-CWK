@@ -1,4 +1,6 @@
 body { background-color: pink;}
-.navbar{display:inline;
+
+
+.navbar{display:inline-block;
   padding:25px;
 {
