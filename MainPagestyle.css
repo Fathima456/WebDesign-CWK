@@ -2,7 +2,7 @@ body { background-color: white;
 color:black;
 }
 
-#navbar{
+.menu{
   padding:25px;
   background-color: red;
   color: white;
