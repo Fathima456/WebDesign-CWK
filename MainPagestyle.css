@@ -3,7 +3,7 @@ color:black;
 }
 
 
-#navbar{display:inline;
+#navbar{
   padding:25px;
   background-color: red;
   color: white;
@@ -16,4 +16,12 @@ color:black;
   
   
   
+}
+#nav.ul{
+list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+#navbar.li{
+  display: inline;
 }
