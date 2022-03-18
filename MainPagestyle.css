@@ -14,8 +14,7 @@ color:black;
   margin-top:300px;
   
   
-  
-}
+ }
 
 
 ul{
@@ -25,4 +24,9 @@ list-style-type: none;
 }
 li{
   display: inline;
+}
+li a {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
 }
