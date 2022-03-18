@@ -3,7 +3,7 @@ color:black;
 }
 
 
-#menu{
+.navbar{
   padding:25px;
   background-color: red;
   color: white;
@@ -17,11 +17,11 @@ color:black;
   
   
 }
-#menu.ul{
+.menu.ul{
 list-style-type: none;
   margin: 0;
   padding: 0;
 }
-#menu.li{
+.menu.li{
   display: inline;
 }
