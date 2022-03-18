@@ -3,7 +3,7 @@ color:black;
 }
 
 
-.navbar{display:inline-block;
+.navbar{display:inline;
   padding:25px;
   background-color: red;
   color: white;
