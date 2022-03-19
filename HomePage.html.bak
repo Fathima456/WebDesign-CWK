@@ -9,25 +9,37 @@
 </head>
 
 <body>
+    <img src="logo.png"><br>
     
-    
-    <div class="navbar">
-        <div class="menu">
-            <ul>
-                <li><a href="#">Home.</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Gallery</a></li>
-                <li><a href="#">Coaches</a></li>
-                <li><a href="#">Shop</a></li>
-                <li><a href="#">Contacts</a></li>
+   
+        
+            <nav align="center" >
+               
+                <a href="#" class="link">Home</a>
+                <a href="#" class="link">About</a>
+                <a href="#" class="link">Gallery</a>
+                <a href="#" class="link">Coaches</a>
+                <a href="#" class="link">Shop</a>
+                <a href="#" class="link">Contacts</a>
+	
+           
+            </nav>
+	
+	
+     <div class = "Slider">
+			    
+         <div class = "Slides">
+             <img src = "basketballCourtedited.jpg">
+	     <div class = "caption">Texttttt</div>	
+	 </div>	 
+                
 				
-            </ul>
-        </div>
-    </div>   
+            
+       
+      
     
 	
 	
-	<h1>dsbwjuebfw</h1>
    
 </body>
 
