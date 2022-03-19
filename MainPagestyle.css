@@ -38,17 +38,20 @@ nav a {
 }
 
 
-.Slides {
+div.Slides {
 	margin-left:0;
 	margin-right:0;
 	margin-top: 40px;
     width: 1000px;
     position: static;
+
     
 
 	
 	
 }
+
+
 
 .topic{
     background: white;
