@@ -1,6 +1,39 @@
-body { background-color: pink;}
+body { background-color: #C41919;
+color:black;
+}
+
+nav {
+    background-color: #C41919;
+    align-items: center;
+    padding: 14px 16px;
+    overflow: hidden;
+}
+nav a {
+    text-decoration: none;
+    padding: 40px;
+    text-align: center;
+    float: center;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.link:hover{
+      cursor:pointer;
+        background:black;
+        color:white;
+        padding: 40px;
+
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+  height: 200px;
+  width: 200px;
+  margin-top: 10px;
+}
 
 
-.navbar{display:inline-block;
-  padding:25px;
-{
