@@ -41,6 +41,11 @@ nav a {
 	margin-left:auto;
 	margin-right:auto;
 	
-}	
+	
+}
+
+
+.caption {
+         font-color:white;}
 
 
