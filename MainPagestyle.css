@@ -53,10 +53,17 @@ nav a {
     width: 100%;
     font-weight: bold;
     height: 200px;
-   
-    position :center;
-    padding: 14px 16px;
+    
+    
+    
+
+}
+
+div.h1{
     font-size: 30px;
+    padding: 14px 16px;
+    float:right ;
+    position :center;
 
 }
 
