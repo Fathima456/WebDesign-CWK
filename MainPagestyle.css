@@ -49,9 +49,11 @@ nav a {
 
 .topic{
     background: white;
-    color: white;
+    color: red;
     width: 100%;
-    
+    font-weight: bold;
+    max-height: 500px;
+
 }
 
 
