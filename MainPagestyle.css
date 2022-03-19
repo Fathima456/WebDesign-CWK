@@ -40,14 +40,10 @@ nav a {
 .Slides {
 	margin-left:auto;
 	margin-right:auto;
-	 background-color: pink;
+	position:relative;
 	
 	
 }
 
-
-.caption {
-         font-color:white;
-		}
 
 
