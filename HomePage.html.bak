@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    <img id = "logo" src="logo.png"><br>
+    <img id = "logo" src="logo.png" alt="logo"><br>
     
    
         
@@ -26,16 +26,26 @@
             </nav>
 	
 	
-     <div class = "Slider">
+     <div >
 			    
          <div class = "Slides">
-             <img src = "basketballCourtedited.jpeg">
-	     <div class = "caption">Texttttt</div>	
-	 </div>	 
+             <img src = "basketballCourtedited.jpeg" style="width: 100%; height: 500px;">
+	         <div class = "caption">Text</div> 
+	     </div>	 
+
+
                 
-				
+	 		
+
+
+
+     <div class="topic">
+
+    <h1 align="center">Welcome to Ndure Training Center</h1>
+
+    </div>
             
-       
+      </div>     
       
     
 	
