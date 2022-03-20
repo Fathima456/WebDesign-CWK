@@ -103,19 +103,19 @@ nav a {
 }
 
 #radio1:checked ~ .nav-auto .auto-btn1{
-	background:#FFFFFF;	
+	background:blue;	
 }
 
 #radio2:checked ~ .nav-auto .auto-btn2{
-	background:#FFFFFF;	
+	background:blue;	
 }
 
 #radio3:checked ~ .nav-auto .auto-btn3{
-	background:#FFFFFF;	
+	background:blue;	
 }
 
 #radio4:checked ~ .nav-auto .auto-btn4{
-	background:#FFFFFF;	
+	background:blue;	
 }
 
 
