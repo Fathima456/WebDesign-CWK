@@ -80,6 +80,10 @@ nav a {
 	transition: 2s;
 }
 
+.slide img {
+	width:800px;
+    height:900px;	
+}
 
 
 
