@@ -34,10 +34,10 @@
 			
 			
 			
-			<input type "radio1" name = "radio-btn">
-			<input type "radio2" name = "radio-btn">
-			<input type "radio3" name = "radio-btn">
-			<input type "radio4" name = "radio-btn">
+			<input type "radio1" name = "radio-btn" id = "radio1">
+			<input type "radio2" name = "radio-btn" id = "radio2">
+			<input type "radio3" name = "radio-btn" id = "radio3">
+			<input type "radio4" name = "radio-btn" id = "radio4">
 			
 			
 			
