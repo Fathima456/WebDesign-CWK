@@ -53,13 +53,14 @@ nav a {
     height:100vh;
     display:flex;
 	align-items:center;
+	justify-content:center;
    
 	
 }	
     
 .slider {
 	width:900px;
-	height:500px;
+	height:700px;
 	border-radius:10px;
 	overflow:hidden;
 	
