@@ -93,7 +93,7 @@ nav a {
 	margin-top: 620px;
 }
 
-.nav-auto div {
+/*.nav-auto div {
 	border: 2px solid #FFFFFF;
 	padding:5px;
 	border-radius:10px;
@@ -101,7 +101,7 @@ nav a {
 	margin-right:20px;
 	
 }
-
+*/
 /*#radio1:checked ~ .nav-auto .auto-btn1{
 	background:blue;	
 }

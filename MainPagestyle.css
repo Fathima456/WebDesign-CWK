@@ -85,13 +85,8 @@ nav a {
     height:900px;	
 }
 
-.nav-auto {
-	position:absolute;
-	display:flex;
-	width:800px;
-	justify-content: center;
-	margin-top: 620px;
-}
+
+
 
 /*.nav-auto div {
 	border: 2px solid #FFFFFF;
