@@ -90,7 +90,7 @@ nav a {
 	display:flex;
 	width:800px;
 	justify-content: center;
-	margin-top: 500px;
+	margin-top: 620px;
 }
 
 .nav-auto div {

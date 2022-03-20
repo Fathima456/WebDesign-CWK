@@ -90,7 +90,7 @@ nav a {
 	display:flex;
 	width:800px;
 	justify-content: center;
-	margin-top: 590px;
+	margin-top: 620px;
 }
 
 .nav-auto div {
@@ -101,6 +101,24 @@ nav a {
 	margin-right:20px;
 	
 }
+
+#radio1:checked ~ .nav-auto .auto-btn1{
+	background:#FFFFFF;	
+}
+
+#radio2:checked ~ .nav-auto .auto-btn2{
+	background:#FFFFFF;	
+}
+
+#radio3:checked ~ .nav-auto .auto-btn3{
+	background:#FFFFFF;	
+}
+
+#radio4:checked ~ .nav-auto .auto-btn4{
+	background:#FFFFFF;	
+}
+
+
 
 
 .topic{
