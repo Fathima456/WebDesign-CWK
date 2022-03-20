@@ -45,16 +45,21 @@ nav a {
     width: 100%;
     didplay: flex;
     height: auto;
-}*/	
+}*/
+
+.body {
+    margin:0;
+    padding:0;
+    height:100vh;
+    display:flex;
+    justify-content:center;
+	align-items:center;	
+	
+}	
     
 .slider {
 	width:500%;
 	height:500px;
-	margin:0;
-	padding:0;
-	display:flex;
-	justify-content:center;
-	align-items:center;
 	border-radius:10px;
 	
     	
