@@ -97,7 +97,7 @@ nav a {
 	
 }
 
-/*#radio1:checked ~ .nav-auto .auto-btn1{
+#radio1:checked ~ .nav-auto .auto-btn1{
 	background:blue;	
 }
 
@@ -112,7 +112,7 @@ nav a {
 #radio4:checked ~ .nav-auto .auto-btn4{
 	background:blue;	
 }
-*/
+
 .slides input{
 	display:none;
 }
