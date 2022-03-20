@@ -45,7 +45,7 @@ nav a {
     width: 100%;
     didplay: flex;
     height: auto;
-}*/	
+}	
     
 .slider {
 	width:500%;
@@ -57,12 +57,16 @@ nav a {
 	align-items:center;
 	border-radius:10px;
 	
-    
-
-	
+    	
 	
 }
 
+.slides {
+	width:500px;
+	height:500px;
+	display:flex;
+	
+}
 
 
 .topic{
