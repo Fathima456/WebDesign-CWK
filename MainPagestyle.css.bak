@@ -70,7 +70,7 @@ nav a {
 
 .slides {
 	width:500%;
-	height:500px;
+	height:700px;
 	display:flex;
 	
 }
