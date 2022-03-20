@@ -58,7 +58,7 @@ nav a {
 }	
     
 .slider {
-	width:1000px;
+	width:800px;
 	height:500px;
 	border-radius:10px;
 	
@@ -67,7 +67,8 @@ nav a {
 }
 
 .slides {
-	
+	width:500%;
+	height:500px;
 	display:flex;
 	
 }
