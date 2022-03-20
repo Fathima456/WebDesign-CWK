@@ -97,23 +97,10 @@ nav a {
 	
 }
 
-#radio1:checked ~ .nav-auto .auto-btn1{
-	background:blue;	
+
+.slides input{
+	display:none;
 }
-
-#radio2:checked ~ .nav-auto .auto-btn2{
-	background:blue;	
-}
-
-#radio3:checked ~ .nav-auto .auto-btn3{
-	background:blue;	
-}
-
-#radio4:checked ~ .nav-auto .auto-btn4{
-	background:blue;	
-}
-
-
 
 .topic{
     background: white;

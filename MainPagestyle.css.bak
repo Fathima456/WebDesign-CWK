@@ -113,9 +113,7 @@ nav a {
 	background:blue;	
 }
 
-.slides input{
-	display:none;
-}
+
 
 .topic{
     background: white;
