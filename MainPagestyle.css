@@ -38,13 +38,12 @@ nav a {
 }
 
 
-/*.Slide {
+.Slide {
 	margin-left:auto;
 	margin-right:auto;
 	margin-top: 40px;
     width: 100%;
-    position: static;
-    didplay: block;
+    didplay: flex;
     height: auto;
 }*/	
     
