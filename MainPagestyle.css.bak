@@ -85,6 +85,16 @@ nav a {
     height:900px;	
 }
 
+.nav-auto {
+	position:absolute;
+}
+
+.nav-auto div {
+	border: 2px solid #000000;
+	padding:5px;
+	border-radius:10px;
+	transition:1s;
+}
 
 
 .topic{
