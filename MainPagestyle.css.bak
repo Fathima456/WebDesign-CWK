@@ -47,7 +47,9 @@ nav a {
     height: auto;
 }*/	
     
-.Slides {
+.Slider {
+	width:500%;
+	height:500px;
 	margin:0;
 	padding:0;
 	display:flex;
