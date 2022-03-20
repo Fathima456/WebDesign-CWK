@@ -1,5 +1,6 @@
 body { background-color: #C41919;
 color:black;
+font-family: 'Trebuchet MS', sans-serif;
 }
 
 nav {
@@ -40,11 +41,36 @@ nav a {
 .Slides {
 	margin-left:auto;
 	margin-right:auto;
-	margin-top: 20px;
-	max-width:900px;
+	margin-top: 40px;
+    width: 100%;
+    position: static;
+    didplay: block;
+    height: auto;
+    
+
+    
+
 	
 	
 }
+
+
+
+.topic{
+    background: white;
+    color: red;
+    width: 100%;
+    font-weight: bold;
+    height: 200px;
+    text-align: left;
+    font-size: 25px;
+    padding: 32px 32px 32px 32px;
+    
+    
+    
+
+}
+
 
 
 
