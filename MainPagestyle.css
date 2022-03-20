@@ -38,7 +38,7 @@ nav a {
 }
 
 
-/*.Slide {
+.Slide {
 	margin-left:0;
 	margin-right:0;
 	margin-top: 40px;
@@ -46,7 +46,7 @@ nav a {
     width: 100%;
     didplay: flex;
     height: auto;
-}*/
+}
 
 .body {
     margin:0;
