@@ -59,8 +59,8 @@ nav a {
 }	
     
 .slider {
-	width:900px;
-	height:700px;
+	width:800px;
+	height:500px;
 	border-radius:10px;
 	overflow:hidden;
 	
@@ -70,10 +70,12 @@ nav a {
 
 .slides {
 	width:500%;
-	height:700px;
+	height:500px;
 	display:flex;
 	
 }
+
+
 
 
 .topic{
