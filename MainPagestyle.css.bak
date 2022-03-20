@@ -87,13 +87,19 @@ nav a {
 
 .nav-auto {
 	position:absolute;
+	display:flex;
+	width:800px;
+	justify-content: center;
+	margin-top: 500px;
 }
 
 .nav-auto div {
-	border: 2px solid #000000;
+	border: 2px solid #FFFFFF;
 	padding:5px;
 	border-radius:10px;
 	transition:1s;
+	margin-right:20px;
+	
 }
 
 
