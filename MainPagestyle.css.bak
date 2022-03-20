@@ -42,9 +42,8 @@ nav a {
 	margin-left:0;
 	margin-right:0;
 	margin-top: 40px;
-<<<<<<< Updated upstream
     width: 100%;
-    didplay: flex;
+    display: flex;
     height: auto;
 }
 
