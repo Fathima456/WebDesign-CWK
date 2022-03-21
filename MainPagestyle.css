@@ -128,13 +128,17 @@ nav a {
 }
 
 .topic{
-    background: white;
-    color: red;
+    background: linear-gradient(-50deg, #DC1C13 60%, #FFFFFF 60%);
+    color: black;
     width: 100%;
     font-weight: bold;
     text-align: left;
     font-size: 25px;
-    padding: 32px 32px 32px 32px;
+    height: 240px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+
     
 
 }
