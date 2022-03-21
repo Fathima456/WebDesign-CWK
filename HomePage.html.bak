@@ -86,7 +86,7 @@
      <div class="topic">
 
     <h1 align="left">Welcome to Ndure Training Center</h1>
-    <h2 align="right">BECOME A MEMBER TODAY <br> <img src="icons/member.webp"></h2>
+    <p align="right" >BECOME A MEMBER TODAY <img src="icons/member.webp"></p>
 
     </div>
             
@@ -114,9 +114,15 @@
 
       <div class="bottom">
 		<a href="#Home">Home</a>
-		<a href="#About">Home</a>
-		<a href="Home>Home</a>
-		<a href="Home>Home</a>
+		<a href="#About">About</a>
+		<a href="#Gallery">Gallery</a>
+		<a href="#Shop">Shop</a>
+		<a href="#Quiz">Quiz</a>
+		<a href="#Contact">Contact Us</a>
+		
+		
+		
+		
 		
 		
 		
