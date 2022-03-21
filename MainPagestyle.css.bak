@@ -153,9 +153,14 @@ nav a {
 
 
 .bottom{
-	position:fixed;
+	position:relative;
 	bottom:0;
 	width:100%;
+    color: white;
+    background-color: black;
+    height: 140px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     
 }
 
