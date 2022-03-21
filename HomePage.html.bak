@@ -10,7 +10,7 @@
 
 <body>
 
-	<div>
+	<div class="fix">
     <img id = "logo" src="logo.png" alt="logo"><br>
     
    
