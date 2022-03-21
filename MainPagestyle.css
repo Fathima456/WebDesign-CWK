@@ -8,6 +8,7 @@ nav {
     align-items: center;
     padding: 14px 16px;
     overflow: hidden;
+    position: fixed;
 }
 nav a {
     text-decoration: none;
