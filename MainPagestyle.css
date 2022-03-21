@@ -25,6 +25,17 @@ nav a {
     margin-right: auto;
 }
 
+
+@media screen and (max-width: 500px) {
+nav a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+  
+}
+
 .link:hover{
       cursor:pointer;
         background:black;
