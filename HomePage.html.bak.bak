@@ -9,7 +9,13 @@
 </head>
 
 <body>
+<<<<<<< HEAD
     
+=======
+
+	<div class="navbar" align="center">
+    <img id = "logo" src="logo.png" alt="logo"><br>
+>>>>>>> 3edaecec14e9c67be2c6e8c91e2b17621e725cd1
     
    
         <div class="fix">
@@ -30,8 +36,6 @@
 	
      <div >
 	 
-	 
-	
 	<div class = "body"> 
 		<div class = "slider"> 
 			<div class = "slides">
@@ -89,28 +93,7 @@
 
     </div>
             
-<<<<<<< HEAD
-      </div>  
-	 <!--icon images-->
-	  
-	  <div class="row">
-		<div class="column">
-			<a img src="file:///C:/Users/Acer/Documents/GitHub/git-test/icons/court.webp" alt="Court Availability"></a>
-		</div>
-		<div class="column">
-			<img src="file:///C:/Users/Acer/Documents/GitHub/git-test/icons/coach.webp" alt="Coachers">
-		</div>
-		<div class="column">
-			<img src="file:///C:/Users/Acer/Documents/GitHub/git-test/icons/trophy.webp" alt="Tournaments">
-		</div>
-	</div>
-		
-	  
-=======
-      </div>    
-
-      <div class="bottom"> </div> 
->>>>>>> cd3175afd553d00d697955b8e986a48e4a8d607d
+      </div>     
       
     
 	

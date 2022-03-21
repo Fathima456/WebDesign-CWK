@@ -142,6 +142,15 @@ nav a {
     
 
 }
+.column{
+	margin-left:1px;
+	margin-right:1px;
+	float:left;
+	width:30%;
+	padding:4px;
+}
+ 
+
 
 .bottom{
     

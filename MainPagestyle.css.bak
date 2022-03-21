@@ -1,4 +1,5 @@
-
+*{overflow-x:hidden;
+}
 
 body { background-color: #C41919;
 color:black;
@@ -10,8 +11,8 @@ nav {
     align-items: center;
     padding: 14px 16px;
     overflow: hidden;
-    position: fixed;
     margin-top: 0px;
+    align: right;
     
 }
 nav a {
@@ -22,6 +23,17 @@ nav a {
     color: white;
     margin-left: auto;
     margin-right: auto;
+}
+
+
+@media screen and (max-width: 500px) {
+nav a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+  
 }
 
 .link:hover{
@@ -42,6 +54,7 @@ nav a {
   margin-top: 10px;
   
 }
+
 
 
 .Slide {
@@ -119,14 +132,22 @@ nav a {
     color: red;
     width: 100%;
     font-weight: bold;
-    height: 200px;
     text-align: left;
     font-size: 25px;
     padding: 32px 32px 32px 32px;
     
-    
-    
 
+}
+.column{
+	float:left;
+	width:30%;
+	padding:4px;
+}
+ 
+
+
+.bottom{
+    
 }
 
 
