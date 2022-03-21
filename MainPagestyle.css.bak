@@ -1,5 +1,4 @@
-*{overflow:hidden;
-}
+
 
 body { background-color: #C41919;
 color:black;
@@ -12,7 +11,8 @@ nav {
     padding: 14px 16px;
     overflow: hidden;
     position: fixed;
-    margin-top: 45px;
+    margin-top: 0px;
+    
 }
 nav a {
     text-decoration: none;

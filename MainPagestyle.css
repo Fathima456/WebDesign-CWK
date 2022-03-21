@@ -1,4 +1,5 @@
-
+*{overflow-x:hidden;
+}
 
 body { background-color: #C41919;
 color:black;
