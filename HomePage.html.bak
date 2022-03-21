@@ -94,9 +94,9 @@
 	 <!--icon images-->
 	  
 	<div class="row">
-		<div class="column">
-			<img src="icons/court.webp" alt="Court Availability">
-			<p>Court Availability</p>
+		<div class="court">
+			<a href="court"><img src="icons/court.webp" alt="Court Availability"></a>
+			<a href="court"><p>Court Availability</p></a>
 		</div>
 		<div class="column">
 			<img src="icons/coach.webp" alt="Coachers">

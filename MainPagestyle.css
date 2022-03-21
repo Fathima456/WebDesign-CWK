@@ -145,9 +145,10 @@ nav a {
 .row{
 	margin-left:1px;
 	margin-right:1px;
-	float:left;
+	float:center;
 	width:30%;
 	padding:4px;
+	display:inline;
 }
  
 
