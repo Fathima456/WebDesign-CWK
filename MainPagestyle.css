@@ -12,7 +12,7 @@ nav {
     overflow: hidden;
     position: fixed;
     margin-top: 0px;
-    overflow: scroll;
+    
 }
 nav a {
     text-decoration: none;
