@@ -93,17 +93,17 @@
   
 	 <!--icon images-->
 	  
-	  <div class="row">
+	<div class="row">
 		<div class="column">
 			<img src="icons/court.webp" alt="Court Availability">
 			<p>Court Availability</p>
 		</div>
 		<div class="column">
-			<img src="/icons/coach.webp" alt="Coachers">
+			<img src="icons/coach.webp" alt="Coachers">
 			<p>Our Coachers</p>
 		</div>
 		<div class="column">
-			<img src="/icons/trophy.webp" alt="Tournaments">
+			<img src="icons/trophy.webp" alt="Tournaments">
 			<p>Tournaments</p>
 		</div>
 	</div>
@@ -124,11 +124,21 @@
 		</div>
 		
 		<div class="social">
+<<<<<<< HEAD
 		<img src="file:///C:/Users/Acer/Documents/GitHub/git-test/icons/email.webp">
 		<img src="file:///C:/Users/Acer/Documents/GitHub/git-test/icons/facebook.webp">
 		<img src="file:///C:/Users/Acer/Documents/GitHub/git-test/icons/instagram.webp">
 		<img src="file:///C:/Users/Acer/Documents/GitHub/git-test/icons/whatsapp.webp">
+		</div><hr>
+		
+		
+=======
+		<img src="icons/email.webp">
+		<img src="icons/facebook.webp">
+		<img src="icons/instagram.webp">
+		<img src="icons/whatsapp.webp">
 		</div>
+>>>>>>> 4205d5fe040aaee2332c0960ae083e8a2e4ac7d3
 		
 		
 		
