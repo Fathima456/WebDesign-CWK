@@ -9,12 +9,11 @@
 </head>
 
 <body>
-
-	<div class="fix" align="center">
-    <img id = "logo" src="logo.png" alt="logo"><br>
+    
     
    
-        
+        <div class="fix">
+        	<img id = "logo" src="logo.png" alt="logo"><br>
             <nav align="center" >
                
                 <a href="#" class="link">Home</a>
@@ -26,8 +25,7 @@
 	
            
             </nav>
-
-         </div>
+           </div><br><br>
 	
 	
      <div >
@@ -37,12 +35,12 @@
 			<div class = "slides">
 			
 			
-			<!-- 
+			
 			<input type "radio1" name = "radio-btn" id = "radio1">
 			<input type "radio2" name = "radio-btn" id = "radio2">
 			<input type "radio3" name = "radio-btn" id = "radio3">
 			<input type "radio4" name = "radio-btn" id = "radio4">
-			 -->
+			
 			
 			
 						
