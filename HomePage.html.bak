@@ -9,6 +9,8 @@
 </head>
 
 <body>
+
+	<div>
     <img id = "logo" src="logo.png" alt="logo"><br>
     
    
@@ -24,6 +26,8 @@
 	
            
             </nav>
+
+         </div>
 	
 	
      <div >
