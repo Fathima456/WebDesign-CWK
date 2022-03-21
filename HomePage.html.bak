@@ -10,7 +10,7 @@
 
 <body>
 
-	<div class="fix" align="center">
+	<div class="navbar" align="center">
     <img id = "logo" src="logo.png" alt="logo"><br>
     
    
