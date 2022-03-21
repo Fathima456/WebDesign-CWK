@@ -152,7 +152,7 @@ nav a {
  
 
 
-.bottom .social{
+.bottom{
 	position:relative;
 	bottom:0;
 	width:100%;
@@ -163,5 +163,6 @@ nav a {
 	text-decoration:none; 
 	
 }
-
-
+.social{
+	text-align:center;
+}
