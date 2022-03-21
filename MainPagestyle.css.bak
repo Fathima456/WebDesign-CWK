@@ -8,6 +8,8 @@ nav {
     align-items: center;
     padding: 14px 16px;
     overflow: hidden;
+    position: fixed;
+    margin-top: 45px;
 }
 nav a {
     text-decoration: none;
@@ -57,12 +59,12 @@ nav a {
    
 	
 }	
-=======
+/* =======
     
     position: static;
     didplay: block;
     
->>>>>>> Stashed changes
+>>>>>>> Stashed changes */
     
 .slider {
 	max-width:900px;
