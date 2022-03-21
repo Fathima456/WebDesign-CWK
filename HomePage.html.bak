@@ -114,31 +114,27 @@
 	  
 	<!--bottom bar-->
       <div class="bottom">
-		<a href="#Home">Home</a>
-		<a href="#About">About</a>
-		<a href="#Gallery">Gallery</a>
-		<a href="#Shop">Shop</a>
-		<a href="#Quiz">Quiz</a>
-		<a href="#Contact">Contact Us</a>
-		<a href="#Map">Site Map</a>
+		<a href="#Home">Home</a> &nbsp; &nbsp;
+		<a href="#About">About</a> &nbsp; &nbsp;
+		<a href="#Gallery">Gallery</a> &nbsp; &nbsp;
+		<a href="#Shop">Shop</a> &nbsp; &nbsp;
+		<a href="#Quiz">Quiz</a> &nbsp; &nbsp;
+		<a href="#Contact">Contact Us</a> &nbsp; &nbsp;
+		<a href="#Map">Site Map</a> &nbsp; &nbsp;
 		</div>
 		
 		<div class="social">
 
-		<img src="file:///C:/Users/Acer/Documents/GitHub/git-test/icons/email.webp">
-		<img src="file:///C:/Users/Acer/Documents/GitHub/git-test/icons/facebook.webp">
-		<img src="file:///C:/Users/Acer/Documents/GitHub/git-test/icons/instagram.webp">
-		<img src="file:///C:/Users/Acer/Documents/GitHub/git-test/icons/whatsapp.webp">
-		</div><hr>
+		<img src="icons/email.webp"> &nbsp; &nbsp;
+		<img src="icons/facebook.webp"> &nbsp; &nbsp;
+		<img src="icons/instagram.webp"> &nbsp; &nbsp;
+		<img src="icons/whatsapp.webp"> &nbsp; &nbsp;
+		</div><br><br>
+		<hr>
 		
 		
 
-		<img src="icons/email.webp">
-		<img src="icons/facebook.webp">
-		<img src="icons/instagram.webp">
-		<img src="icons/whatsapp.webp">
-		</div>
-
+		
 		
 		
 		
