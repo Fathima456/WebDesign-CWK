@@ -178,6 +178,9 @@ nav a {
 	
 }
 
+.fb:hover{
+  color: black;
+}
 
 
 hr{height:3px;
@@ -185,6 +188,7 @@ hr{height:3px;
 	background-color:black;
 	border-width:0;
 }
+
 #last{text-align:center;
 }
 
