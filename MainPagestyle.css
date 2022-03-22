@@ -178,7 +178,7 @@ nav a {
 	
 }
 
- #facebook:hover {
+ #facebook:hover,#insta:hover,  #whatsapp:hover,#em:hover, #twitter:hover {
   animation: Zoom 1s ease infinite;
 }
 
