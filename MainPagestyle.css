@@ -178,8 +178,8 @@ nav a {
 	
 }
 
-.fb:hover{
-  color: black;
+#insta:hover, #facebook:hover, #em:hover, #whatsapp:hover, #twitter:hover {
+  animation: Zoom 1s ease infinite;
 }
 
 
