@@ -176,6 +176,9 @@ nav a {
 	
 }
 hr{height:3px;
-border:none;
+	color:white;
+	background-color:black;
+	border-width:0;
+
 }
 
