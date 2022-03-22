@@ -208,7 +208,28 @@ hr{height:3px;
   text-decoration: underline;
 }
 .column a:active {
-  color: black;
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+.social a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+ .social a:visited {
+  color: blue;
+  background-color: transparent;
+  text-decoration: none;
+}
+ .column a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.column a:active {
+  color: white;
   background-color: transparent;
   text-decoration: underline;
 }
