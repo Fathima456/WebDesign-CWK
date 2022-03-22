@@ -213,5 +213,25 @@ hr{height:3px;
   text-decoration: underline;
 }
 
+.bottom a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+ .bottom a:visited {
+  color: blue;
+  background-color: transparent;
+  text-decoration: none;
+}
+ .bottom a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.bottom a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
 
 
