@@ -203,7 +203,7 @@ hr{height:3px;
   text-decoration: none;
 }
  .column a:hover {
-  color: red;
+  color: black;
   background-color: transparent;
   text-decoration: underline;
 }
