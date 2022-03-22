@@ -129,7 +129,7 @@ nav a {
 }
 
 .topic{
-    background: linear-gradient(-50deg, #DC1C13 60%, #FFFFFF 60%);
+    background: linear-gradient(-50deg, #C41919 60%, #FFFFFF 60%);
     color: black;
     width: 100%;
     font-weight: bold;
@@ -138,7 +138,10 @@ nav a {
     height: 240px;
     padding-top: 50px;
     padding-bottom: 50px;
-    
+    border-color: black;
+    border-style: solid;
+    margin: 0;
+    border-left: 0;
 
     
 
@@ -170,8 +173,7 @@ nav a {
 }
 .social{
 	text-align:center;
-	height:100px;
-	width:100px;
+	
 
 }
 
