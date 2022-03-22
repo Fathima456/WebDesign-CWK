@@ -223,12 +223,12 @@ hr{height:3px;
   background-color: transparent;
   text-decoration: none;
 }
- .column a:hover {
+ .social a:hover {
   color: red;
   background-color: transparent;
   text-decoration: underline;
 }
-.column a:active {
+.social a:active {
   color: white;
   background-color: transparent;
   text-decoration: underline;
