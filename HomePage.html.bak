@@ -125,10 +125,13 @@
 		
 		<div class="social">
 
-		<a href=""><img src="icons/email.webp"></a> &nbsp; &nbsp;
-		<a href=""><img src="icons/facebook.webp"></a> &nbsp; &nbsp;
-		<a href=""><img src="icons/insta.webp"></a> &nbsp; &nbsp;
-		<a href=""><img src="icons/whatsapp.webp"></a> &nbsp; &nbsp;
+		<a href=""><img src="icons/email.webp" alt="email"></a> &nbsp; &nbsp;
+		<a href=""><img src="facebook.png" alt="facebook"></a> &nbsp; &nbsp;
+		<a href=""><img src="INSTA.png" alt="instagram"></a> &nbsp; &nbsp;
+		<a href=""><img src="icons/whatsapp.webp" alt="whatsapp"></a> &nbsp; &nbsp;
+		<a href=""><img src="Twitter.png" alt="Twitter"></a> &nbsp; &nbsp;
+		
+		
 		</div><br><br>
 		<hr>
 		
