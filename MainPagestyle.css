@@ -177,6 +177,13 @@ nav a {
 	color: white;
 	
 }
+
+
+.social:hover{
+  color: red;
+  background-color: transparent;
+}
+
 hr{height:3px;
 	color:white;
 	background-color:black;
