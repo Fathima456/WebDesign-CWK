@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Query Form</title>
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script >
+        function validateForm() {
+    let name = document.getElementById("name").value;
+    let email = document.getElementById("email").value;
+    let subject = document.getElementById("subject").value;
+    let details = document.getElementById("details").value;
+    
+    const allValues = {name: name, email: email, subject: subject, details: details};
+    const missingValues = [];
+
+    if (name == "" || email == "" || subject == "" || details == "") {
+        Object.keys(allValues).forEach(function(key) {
+            if(allValues[key] == ""){
+                missingValues.push(key);
+            }
+        });
+        alert("Missing Values : " + missingValues);
+        return false;
+
+    } else {
+        var form = document.getElementById('myForm');
+        var div = document.getElementById('display');
+        div.innerHTML = '';
+        div.innerHTML += "Name : " + name + "<br>";
+        div.innerHTML += "Email : " + email + "<br>";
+        div.innerHTML += "Subject : " + subject + "<br>";
+        div.innerHTML += "Details : " + details + "<br><br>";
+
+
+        div.innerHTML += "<input type='button' value='Edit' onclick='editForm()' >" + " "
+        div.innerHTML += "<input type='submit' value='Submit' onclick='sendEmail()' >"
+        
+
+
+        if (div.style.display === "none") {
+            div.style.display = "block";
+            div.style.color="black";
+            form.style.display = "none";
+
+        }
+    }
+}
+
+function editForm() {
+    var form = document.getElementById('myForm');
+    var div = document.getElementById('display');
+
+    if (form.style.display === "none") {
+        form.style.display = "block";
+        div.style.display = "none";
+    }
+}
+
+
+
+function sendEmail() {
+    
+        Email.send({
+        Host: "smtp.elasticemail.com",
+        Username: "nathali.20210422@iit.ac.lk",
+        Password: "C90C3F930B7DB2FF1C13B86AE8123A9DF2D1",
+        To: document.getElementById("email").value,
+        From: "nathali.20210422@iit.ac.lk",
+        Subject: document.getElementById("subject").value,
+        Body: document.getElementById("details").value,
+      })
+        .then(function (message) {
+          alert("mail sent successfully")
+        });
+    
+
+    var div = document.getElementById('display');
+    if (div.style.display === "block") {
+        div.style.display = "none";
+    }
+
+
+
+}
+
+    </script>
+
+
+
+
+    <style>
+    body{
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    div.form{
+        float: left;
+        border-color: #C41919;
+    }
+
+input[type=text]{
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  border-color: #C41919;
+}
+
+input[type=email]{
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  border-color: #C41919;
+
+}
+
+#button {
+  background-color: #C41919;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+
+
+#details {
+  width: 80%;
+  height: 50px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+  border-color: #C41919;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  resize: none;
+}
+#details:hover{
+    color: grey;
+}
+
+h1{
+    text-align-last: center;
+    background-color:#C41919;
+    color: white;
+    padding: 15px 32px;
+   
+}
+
+input[type='radio']{
+    accent-color: #C41919;
+    
+
+        
+    }
+input[type="textbox"]{
+    position: static;
+}
+
+
+.form {
+        margin: 0 auto;
+        padding-right:20px;
+        padding-left:20px;
+        
+     min-width:150px;
+     background: linear-gradient(-50deg, #C41919 60%, #FFFFFF 60%);
+     border: 1px solid black;
+     
+        
+    }
+    .form label{
+        
+        
+  text-align:left;
+  padding-right:20px;
+        display:inline-block;
+     min-width:150px;
+     padding-top: 20px;
+  
+}
+        
+    
+    .form input{
+        
+        text-align: left;
+        
+        
+    }
+
+    
+
+
+
+
+
+#button:hover{
+        cursor:pointer;
+        background:black;
+        color:white;
+            }
+
+    input:hover{
+        cursor: pointer;
+        border-color: grey;
+
+    }
+
+    input[type="select"] :hover {
+    border-color: grey;
+}
+
+
+
+#display input[type="button"]{
+    background-color: #C41919;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+
+}
+
+#display input[type="submit"]{
+    background-color: #C41919;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+
+}
+
+#display input[type="submit"]:hover{
+
+    cursor:pointer;
+        background:black;
+        color:white;
+
+}
+
+#display input[type="button"]:hover{
+
+    cursor:pointer;
+        background:black;
+        color:white;
+
+}
+
+#display{
+
+        
+        font-size: 20px;
+        margin: 4px 2px;
+        padding: 15px 32px;
+       font-weight: bold;
+       background-color:white ;
+       border: 1px solid black;
+       background: linear-gradient(-50deg, #C41919 60%, #FFFFFF 60%);
+    
+
+}
+
+
+
+
+
+
+</style>
+
+
+
+
+</head>
+<div class="body">
+<h1>Contact Us</h1>
+
+<body>
+    <form name="myForm" action="" method="post" enctype="text/plain"  id="myForm" class="form" mailto:nathali.20210422@iit.ac.lk>
+        <div>
+        <label>Name:</label>
+        <input type="text" name="name" id="name" placeholder="Enter your Full Name"><br><br>
+        
+        <label>E-mail:</label>
+        <input type="text" name="email" id="email" placeholder="Enter your Email"><br><br>
+        
+        <label>Subject:</label>
+        <input type="text" name="subject"  id="subject" placeholder="Enter subject eg:Coaches,Fees">
+
+        <br><br>
+
+        
+        <label>Details:</label>
+        <input type="textarea" name="details"  id="details" placeholder="Fill in your inquiry"><br><br>
+
+        <p>Are you a member of our training facility?</p><br>
+    
+        Yes
+    <input type="radio" name="member" value="Yes">&nbsp;
+        No
+    <input type="radio" name="member" value="No"><br><br><br>
+        
+        <input type="button" onclick="validateForm()" value="View Query" id="button" > <br><br>
+
+
+
+    </div>
+    
+
+
+     
+        
+    </form>
+    <div id="display" style="display: none; color:black" ></div>
+
+
+
+    
+    
+
+</body>
+</div>
+</html>
