@@ -10,7 +10,7 @@
 
 <body>
     
-    
+    <a name="top"></a>
    
         <div class="fix">
         	<img id = "logo" src="logo.png" alt="logo"><br>
@@ -103,7 +103,7 @@
 			<a href="court"><p>Our Coachers</p></a>
 		</div>
 		<div class="column">
-			<a href="icons"><img src="icons/trophy.webp" alt="Tournaments"></a>
+			<a href="icons"><img src="icons/trophy.webp" alt="Tournaments" style="filter:white"></a>
 			<a href="icons"><p>Tournaments</p></a>
 		</div>
 	</div>
@@ -125,14 +125,16 @@
 		
 		<div class="social">
 
-		<a href=""><img src="icons/email.webp" alt="email"></a> &nbsp; &nbsp;
 		<a href=""><img src="icons/facebook.png" alt="facebook"></a> &nbsp; &nbsp;
 		<a href=""><img src="icons/INSTA.png" alt="instagram"></a> &nbsp; &nbsp;
 		<a href=""><img src="icons/whatsapp.png" alt="whatsapp"></a> &nbsp; &nbsp;
+		<a href=""><img src="icons/email.webp" alt="email"></a> &nbsp; &nbsp;
 		<a href=""><img src="icons/Twitter.png" alt="Twitter"></a> &nbsp; &nbsp;
 		
 		
 		</div><br><br>
+
+		<a href="#top" ><img src="icons/arrow.webp" alt="back to top" class="center"></a>
 		<hr>
 		
 		<p id="last">Page by</p>
