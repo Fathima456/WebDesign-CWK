@@ -213,24 +213,5 @@ hr{height:3px;
   text-decoration: underline;
 }
 
-.social a:link {
-  color: white;
-  background-color: transparent;
-  text-decoration: none;
-}
- .social a:visited {
-  color: blue;
-  background-color: transparent;
-  text-decoration: none;
-}
- .social a:hover {
-  color: red;
-  background-color: transparent;
-  text-decoration: underline;
-}
-.social a:active {
-  color: white;
-  background-color: transparent;
-  text-decoration: underline;
-}
+
 
