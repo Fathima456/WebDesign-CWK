@@ -192,7 +192,7 @@ hr{height:3px;
 }
 
 
- .social .column a:link {
+  .column a:link {
   color: white;
   background-color: transparent;
   text-decoration: none;
