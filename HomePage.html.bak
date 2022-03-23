@@ -31,52 +31,110 @@
      <div >
 	 
 	 
+	 <div class="slideshow-container">
+
+		<div class="mySlides fade">
+		  <div class="numbertext">1 / 4</div>
+		  <img src="basketballCourtedited.jpeg" style="width:100%">
+		  <div class="text">Caption Text</div>
+		</div>
+
+		<div class="mySlides fade">
+		  <div class="numbertext">2 / 4</div>
+		  <img src="Cricketpitch.jpg" style="width:100%">
+		  <div class="text">Caption Two</div>
+		</div>
+
+		<div class="mySlides fade">
+		  <div class="numbertext">3 / 4</div>
+		  <img src="tenniscourt.jpg" style="width:100%">
+		  <div class="text">Caption Three</div>
+		</div>
+
+		<div class="mySlides fade">
+		  <div class="numbertext">4 / 4</div>
+		  <img src="swimmingpool2.jpg" style="width:100%">
+		  <div class="text">Caption Four</div>
+		</div>
+
+	</div>
+	<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+	 
+	 
 	
-	<div class = "body"> 
-		<div class = "slider"> 
-			<div class = "slides">
+	<!-- <div class = "body">  -->
+		<!-- <div class = "slider">  -->
+			<!-- <div class = "slides"> -->
 			
 			
 			
-			<input type "radio1" name = "radio-btn" id = "radio1">
-			<input type "radio2" name = "radio-btn" id = "radio2">
-			<input type "radio3" name = "radio-btn" id = "radio3">
-			<input type "radio4" name = "radio-btn" id = "radio4">
+			<!-- <input type "radio1" name = "radio-btn" id = "radio1"> -->
+			<!-- <input type "radio2" name = "radio-btn" id = "radio2"> -->
+			<!-- <input type "radio3" name = "radio-btn" id = "radio3"> -->
+			<!-- <input type "radio4" name = "radio-btn" id = "radio4"> -->
 			
 			
 			
 						
-				<div class = "Slide">
-					 <img src = "basketballCourtedited.jpeg" style="width: 100%; height: 700px;">
-					 <div class = "caption">Text</div> 
-				 </div>	 
+				<!-- <div class = "Slide"> -->
+					 <!-- <img src = "basketballCourtedited.jpeg" style="width: 100%; height: 700px;"> -->
+					 <!-- <div class = "caption">Text</div>  -->
+				 <!-- </div>	  -->
 			 
-				<div class = "Slide">
-					 <img src = "Cricketpitch.jpg" style="width: 100%; height: 700px;">
-					 <div class = "caption">Text</div> 
-				 </div>	 
+				<!-- <div class = "Slide"> -->
+					 <!-- <img src = "Cricketpitch.jpg" style="width: 100%; height: 700px;"> -->
+					 <!-- <div class = "caption">Text</div>  -->
+				 <!-- </div>	  -->
 			 
-				<div class = "Slide">
-					 <img src = "tenniscourt.jpg" style="width: 100%; height: 700px;">
-					 <div class = "caption">Text</div> 
-				 </div>	 
+				<!-- <div class = "Slide"> -->
+					 <!-- <img src = "tenniscourt.jpg" style="width: 100%; height: 700px;"> -->
+					 <!-- <div class = "caption">Text</div>  -->
+				 <!-- </div>	  -->
 			 
-				<div class = "Slide">
-					 <img src = "swimmingpool2.jpg" style="width: 100%; height: 700px;">
-					 <div class = "caption">Text</div> 
-				 </div>	 
+				<!-- <div class = "Slide"> -->
+					 <!-- <img src = "swimmingpool2.jpg" style="width: 100%; height: 700px;"> -->
+					 <!-- <div class = "caption">Text</div>  -->
+				 <!-- </div>	  -->
 				 
 				 
 				 
 				 
 				 
 				 
-				 <div class = "nav-auto">
-				    <div class = "auto-btn1"></div>
-					<div class = "auto-btn2"></div>
-					<div class = "auto-btn3"></div>
-					<div class = "auto-btn4"></div>
-			    </div>		
+				 <!-- <div class = "nav-auto"> -->
+				    <!-- <div class = "auto-btn1"></div> -->
+					<!-- <div class = "auto-btn2"></div> -->
+					<!-- <div class = "auto-btn3"></div> -->
+					<!-- <div class = "auto-btn4"></div> -->
+			    <!-- </div>		 -->
 			 
 						
 					
@@ -85,7 +143,7 @@
     </div><br><br><br><br>
      <div class="topic">
 
-    <h1 align="left">Welcome to Ndure Training Center</h1>
+    <h1 align="left">Welcome to <br> Ndure Training Center</h1>
     <h2 align="right" >BECOME A MEMBER TODAY <img src="icons/member.webp"></h2>
 
     </div><br><br><br><br>
@@ -136,7 +194,15 @@
 		
 		
 		</div><br><br>
-		<a href="#top" ><img src="icons/arrow.png" alt="back to top" class="center" id="arrow"></a>
+<<<<<<< HEAD
+		<a href="#top" ><img src="icons/arrow.jpeg" alt="back to top" class="center" id="arrow"></a>
+=======
+		
+		<hr>
+
+		
+		<p id="last">Page by</p>
+>>>>>>> 6fe39cdbe781e4dfe960664c3f437ad32addf03f
 		</div>
 
 		
