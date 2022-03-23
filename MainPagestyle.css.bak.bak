@@ -130,14 +130,15 @@ nav a {
 }
 
 .topic{
-
+<<<<<<< HEAD
+<<<<<<< HEAD
     background: linear-gradient(-50deg, #C41919 60%, #000 60%);
-
+=======
     background: linear-gradient(50deg, #C41919 60%, #FFFFFF 60%);
-
-
+>>>>>>> 016baaad0d0425e3f5f79dc64244f1bfd7f7db35
+=======
     background: linear-gradient(50deg, #C41919 60%, #FFFFFF 60%);
-
+>>>>>>> 6687c3734688859e44cf952c53321785b7758bff
     color: black;
     width: 100%;
     font-weight: bold;
@@ -174,13 +175,12 @@ nav a {
 	bottom:0;
 	width:100%;
     color: white;
-	overflow:hidden;
-	 
+	margin-bottom: 100px; 
     
 	text-align:center;
 	padding:30px;
 	color:white;
-	
+	margin: 0;
 	
 }
 .social{
@@ -353,7 +353,8 @@ img {vertical-align: middle;}
   transition: background-color 0.6s ease;
 }
 
-
+=======
+>>>>>>> 6687c3734688859e44cf952c53321785b7758bff
 .active {
   background-color: #717171;
 }

@@ -143,9 +143,11 @@ function showSlides() {
 		</div>
     </div><br><br><br><br>
      <div class="topic">
+		<div class="h1">
 
-    <h1 align="left">Welcome to <br> Ndure Training Center</h1>
-    <h2 align="right" >BECOME A MEMBER TODAY <img src="icons/member.webp"></h2>
+		<h1 align="left">Welcome to <br> Ndure Training Center</h1></div>
+		<div class="h2">	
+		<h2 align="right" >BECOME A MEMBER TODAY <img src="icons/member.webp"></h2>
 
     </div><br><br><br><br>
             
