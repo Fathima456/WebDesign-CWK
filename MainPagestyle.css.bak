@@ -162,10 +162,11 @@ nav a {
 
 
 .bottom{
-	position:relative;
+	position:fixed;
 	bottom:0;
 	width:100%;
     color: white;
+	overflow:hidden;
 	 
     
 	text-align:center;
