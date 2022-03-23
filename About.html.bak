@@ -27,8 +27,9 @@
            </div><br><br>
 		   
 			<!--About-->
+			<div id="about">
 			<h1>About</h1>
-			<p id="content">Welcome to NDure Training Centre, located in San Diego, California, United States. 
+			<p>Welcome to NDure Training Centre, located in San Diego, California, United States. 
 			Our <br>vision is to train and encourage young sports enthusiasts & support professional 
 			athletes to <br>compete in national and international level tournaments. We have experienced
 			coaches in <br>our team, Providing you with sports Basketball, Swimming, Tennis, Cricket with
@@ -40,6 +41,7 @@
 			Management team is <br>always willing to help. We look forward to seeing you around the club.
 
 			</P>
+			</div>
 
 
 
