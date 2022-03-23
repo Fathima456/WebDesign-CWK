@@ -4,6 +4,7 @@
 		<head>
 			<meta charset="UTF-8">
 		<title> About page </title>
+		<link rel="stylesheet" href="About.css">
 
 
 		</head>
