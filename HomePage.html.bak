@@ -176,8 +176,8 @@ function showSlides() {
       </div> 
 	  
 	<!--images-->
-			<div class="row" >
-				<div class="column">
+			<div class="row1" >
+				<div class="column1">
 					<img src="https://i.pinimg.com/originals/59/14/67/5914677070b8caaf9f7c56155a2b2ed8.jpg" alt="swimming" height="250" width="300" style="border-radius:20px;" >
 				</div>	
 				
@@ -192,8 +192,8 @@ function showSlides() {
 			
 			
 			
-			<div class="row">
-				<div class="column">
+			<div class="row1">
+				<div class="column1">
 					<img src="https://clubwestside.com/wp-content/uploads/2016/12/Westside_PhotoAdditions_0007s_0001_WESTSIDE_TFOTEH_DAY_3_00357.jpg" alt="tennis" height="250" width="300" style="border-radius:20px;" >
 				</div>	
 				
@@ -215,7 +215,7 @@ function showSlides() {
 	<div class="bottomnav">
       <div class="bottom">
 		<a href="#Home">Home</a> &nbsp; &nbsp;
-		<a href="#About">About</a> &nbsp; &nbsp;
+		<a href="About.html">About</a> &nbsp; &nbsp;
 		<a href="#Gallery">Gallery</a> &nbsp; &nbsp;
 		<a href="#Shop">Shop</a> &nbsp; &nbsp;
 		<a href="#Quiz">Quiz</a> &nbsp; &nbsp;
