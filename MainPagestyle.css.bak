@@ -16,7 +16,7 @@ nav {
     overflow: hidden;
     margin-top: 0px;
     align: right;
-	position:absolute;
+	
     
 }
 nav a {
