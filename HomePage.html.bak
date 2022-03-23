@@ -63,7 +63,8 @@
 <div style="text-align:center">
   <span class="dot"></span> 
   <span class="dot"></span> 
-  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span>   
 </div>
 
 <script>
@@ -198,18 +199,15 @@ function showSlides() {
 		<a href="#top" ><img src="icons/arrow.jpeg" alt="back to top" class="center" id="arrow"></a>
 =======
 		
-		<hr>
+		<hr color="white">
 
 		
-		<p id="last">Page by</p>
+		<p id="last" color="white">Page by</p>
 >>>>>>> 6fe39cdbe781e4dfe960664c3f437ad32addf03f
 		</div>
 
 		
-		<hr>
-
 		
-		<p id="last">Page by</p>
 
 	
 		
