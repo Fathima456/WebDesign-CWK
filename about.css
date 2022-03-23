@@ -25,3 +25,214 @@ nav a {
     color: white;
     margin-left: auto;
     margin-right: auto;
+}
+
+
+@media screen and (max-width: 500px) {
+nav a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+  
+}
+
+.link:hover{
+      cursor:pointer;
+        background:black;
+        color:white;
+        padding: 40px;
+
+}
+
+#logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+  height: 200px;
+  width: 200px;
+  margin-top: 10px;
+  
+}
+
+
+
+.Slide {
+    margin-left:0;
+    margin-right:0;
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    height: auto;
+}
+
+.body {
+    margin:0;
+    padding:0;
+    height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+   
+    
+}   
+/* =======
+    
+    position: static;
+    didplay: block;
+    
+>>>>>>> Stashed changes */
+    
+.slider {
+    max-width:900px;
+    height:700px;
+    border-radius:10px;
+    overflow:hidden;
+    
+        
+    
+}
+
+.slides {
+    width:600%;
+    height:700px;
+    display:flex;
+    
+}
+
+.slide {
+    width: 50%;
+    transition: 2s;
+}
+
+.slide img {
+    width:800px;
+    height:900px;   
+}
+
+
+
+
+.nav-auto div {
+    border: 2px solid #FFFFFF;
+    padding:5px;
+    border-radius:10px;
+    transition:1s;
+    margin-right:20px;
+    
+}
+
+
+.slides input{
+    display:none;
+}
+
+.topic{
+
+    background: linear-gradient(-50deg, #FFFFFF 60%, #000000 60%);
+    color: black;
+    width: 100%;
+    font-weight: bold;
+    text-align: left;
+    font-size: 25px;
+    height: 480px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 20px;
+    margin-left: 0;
+    overflow-y: hidden;
+    
+    
+}
+
+
+
+.column{
+    margin-left:1px;
+    margin-right:1px;
+    float:left;
+    text-align:center;
+    width:30%;
+    padding:4px;
+    display:inline;
+    color:white
+}
+ 
+
+
+.bottom{
+    position:relative;
+    bottom:0;
+    width:100%;
+    color: white;
+    text-align:center;
+    padding:30px;
+    color:white;
+    
+    
+}
+.social{
+    text-align:center;
+    color: white;
+
+    
+}
+
+ #facebook:hover,#insta:hover,  #whatsapp:hover,#em:hover, #twitter:hover {
+  animation: Zoom 1s ease infinite;
+}
+
+
+hr{height:3px;
+    color:white;
+    background-color:black;
+    border-width:0;
+}
+
+#last{text-align:center;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+  
+.bottom a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+ .bottom a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+ .bottom a:hover {
+  color: #C41919 ;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.bottom a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
+#arrow{
+  filter: grayscale(100%);
+  height: 50px;
+  width: 50px;
+
+}
+
+.bottomnav{
+  background-color: black;
+  margin: 0;
+}
+
