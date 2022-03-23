@@ -171,7 +171,7 @@ nav a {
 	text-align:center;
 	padding:30px;
 	color:white;
-	
+	margin: 0;
 	
 }
 .social{
@@ -254,6 +254,7 @@ hr{height:3px;
 
 .bottomnav{
   background-color: black;
+  margin: 0;
 }
 
 * {box-sizing: border-box;}
