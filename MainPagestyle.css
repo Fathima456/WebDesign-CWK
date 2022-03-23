@@ -166,11 +166,12 @@ nav a {
 	bottom:0;
 	width:100%;
     color: white;
+	margin-bottom: 100px; 
     
 	text-align:center;
 	padding:30px;
 	color:white;
-	margin: 0;
+	
 	
 }
 .social{
