@@ -1,0 +1,260 @@
+<!doctype html>
+	<html lang="en">
+
+		<head>
+			<meta charset="UTF-8">
+		<title> About page </title>
+		<link rel="stylesheet" href="about.css">
+
+
+		</head>
+		<body>
+		<a name="top"></a>
+   
+        <div class="fix">
+        	<img id = "logo" src="logo.png" alt="logo"><br>
+            <nav align="center" >
+               
+                <a href="HomePage.html" class="link">Home</a>
+                <a href="#About" class="link">About</a>
+                <a href="#Gallery" class="link">Gallery</a>
+                <a href="#Shop" class="link">Shop</a>
+                <a href="#Quiz" class="link">Quiz</a>
+                <a href="query.html" class="link">Contact Us</a>
+	
+           
+            </nav>
+           </div><br><br>
+           
+		   
+			<!--About-->
+			<div id="about">
+			<h1><center>About</center></h1>
+			<p><center>Welcome to NDure Training Centre, located in San Diego, California, United States. 
+			Our <br>vision is to train and encourage young sports enthusiasts & support professional 
+			athletes to <br>compete in national and international level tournaments. We have experienced
+			coaches in <br>our team, Providing you with sports Basketball, Swimming, Tennis, Cricket with
+			both indoor <br>and outdoor playing areas.<br>
+			Over the past 30 years our very own members were able to achieve championships in <br>different
+			levels. We offer different types of membership packages based on underages. <br>Checkout our 
+			sports store for various equipment and sportswear.<br>
+			If you require further information, We’d love to hear from you and our
+			Management team is <br>always willing to help. We look forward to seeing you around the club.</center>
+
+			</P>
+			</div>
+
+
+
+
+<div class="coaches">
+	
+	
+
+
+	<h1 align="center">Coaches </h1>
+	<h3>Cricket</h3>
+
+	<img src="coaches/cricket coach.webp" class="main">
+
+	<p>Name- Peter Williams</p>
+   <p>Qualifications- <ul> <li>Former cricket coach at a leading cricket club .</li>
+		                    <li> Having cricket-related tactical knowledge, physical fundamentals, and mental skills</li>
+
+
+</ul></p>
+
+<h3>Tennis</h3>
+
+	<img src="coaches/tennis coach.png" class="main">
+
+	<p>Name- Kevin Robinson</p>
+   <p>Qualifications- <ul> <li>5 years coaching experience</li>
+		                    <li>Having in-depth knowledge of the game of tennis.</li></ul></p>
+
+
+
+<h3>Swimming</h3>
+
+	<img src="coaches/swimming coach.jpeg" class="main">
+
+	<p>Name- James Scott</p>
+   <p>Qualifications- <ul> <li>Physical literacy in swimming.</li>
+		                    <li>Competitive swimming skills.</li>
+		                    <li>2 years coaching experience</li>
+		                </ul></p>
+
+
+
+
+<h3>Basketball</h3>
+
+	<img src="coaches/basketball coach.jpeg
+" class="main">
+
+	<p>Name- Jack Harris</p>
+   <p>Qualifications- <ul> <li>11 years coaching experience.</li>
+		                    <li>Bachelor's degree in Physical Education.</li></ul></p>
+<<<<<<< HEAD
+
+
+                    
+
+
+
+
+
+
+		
+
+		
+		
+
+	
+		
+		
+
+		
+		
+		
+		
+		
+		
+	
+	
+		
+		
+		
+=======
+						
+
+		
+		</div>	
+		
+		
+		
+		
+		<div class = "achievements">
+			<h2>Achievements<h2>
+			<br>
+			<p>We were thrilled to win the Exeter and District Tennis League in 2019</p>
+			<img src = "tenniswin.jpg">
+			<br>
+			<br>
+			
+			<p>We achieved the Third place at the SSQ clubs championship for Swimming.</p>
+			<img src = "SwimmingAchieve.jpg">
+			<br>
+			<br>
+			<p>We won the Women's Club Championship 2016</p>
+			<img src = "Basketballwin.jpg">
+			<br>
+			<br>
+			<p>Junior comp winter season 2016</p>
+			<img src = "Cricketwin.jpg">
+			<br>
+		<br>
+		
+		</div>
+>>>>>>> 5b227b329d60ce1b95843992a29f12d0a10de147
+		
+		
+		
+
+
+<<<<<<< HEAD
+</div>	
+
+
+=======
+>>>>>>> 5b227b329d60ce1b95843992a29f12d0a10de147
+
+
+
+				<!--bottom bar-->
+	<div class="bottomnav">
+      <div class="bottom">
+		<a href="#Home">Home</a> &nbsp; &nbsp;
+		<a href="#About">About</a> &nbsp; &nbsp;
+		<a href="#Gallery">Gallery</a> &nbsp; &nbsp;
+		<a href="#Shop">Shop</a> &nbsp; &nbsp;
+		<a href="#Quiz">Quiz</a> &nbsp; &nbsp;
+		<a href="#Contact">Contact Us</a> &nbsp; &nbsp;
+		<a href="#Map">Site Map</a> &nbsp; &nbsp;
+		</div><br><br>
+		
+		<div class="social">
+
+		<a href="https://www.facebook.com/" target="_blank" id="facebook"><img src="icons/facebook.png" alt="facebook"></a> &nbsp; &nbsp; &nbsp;
+		<a href="https://www.instagram.com/" target="_blank" id="insta"><img src="icons/INSTA.png" alt="instagram"></a> &nbsp; &nbsp; &nbsp;
+		<a href="https://www.whatsapp.com/" target="_blank" id="whatsapp"><img src="icons/whatsapp.png" alt="whatsapp"></a> &nbsp; &nbsp; &nbsp;
+		<a href=""><img src="icons/email.jpg" alt="email" height="62px" width="62px" id="em"> </a> &nbsp; &nbsp; &nbsp;
+		<a href="https://twitter.com/?lang=en" target="_blank" id="twitter">
+<img src="icons/Twitter.png" alt="Twitter"></a> &nbsp; &nbsp; &nbsp;
+
+		
+		
+		</div><br><br>
+
+		<a href="#top" ><img src="icons/arrow.jpeg" alt="back to top" class="center" id="arrow"></a>
+
+		
+		<hr style="color:white">
+
+		
+		<p id="last" style="color: white">Page by</p>
+
+		</div>
+
+
+			
+
+	
+		
+
+	
+		
+		
+
+		
+		
+		
+		
+		
+		
+	
+	
+		
+		
+		
+		
+		
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		</body>
+
+
+
+
+
+
+
+
+
+
+
+</html>
