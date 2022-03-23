@@ -95,6 +95,7 @@
 	<p>Name- Jack Harris</p>
    <p>Qualifications- <ul> <li>11 years coaching experience.</li>
 		                    <li>Bachelor's degree in Physical Education.</li></ul></p>
+<<<<<<< HEAD
 
 
                     
@@ -124,14 +125,49 @@
 		
 		
 		
+=======
+						
+
+		
+		</div>	
+		
+		
+		
+		
+		<div class = "achievements">
+			<h2>Achievements<h2>
+			<br>
+			<p>We were thrilled to win the Exeter and District Tennis League in 2019</p>
+			<img src = "tenniswin.jpg">
+			<br>
+			<br>
+			
+			<p>We achieved the Third place at the SSQ clubs championship for Swimming.</p>
+			<img src = "SwimmingAchieve.jpg">
+			<br>
+			<br>
+			<p>We won the Women's Club Championship 2016</p>
+			<img src = "Basketballwin.jpg">
+			<br>
+			<br>
+			<p>Junior comp winter season 2016</p>
+			<img src = "Cricketwin.jpg">
+			<br>
+		<br>
+		
+		</div>
+>>>>>>> 5b227b329d60ce1b95843992a29f12d0a10de147
 		
 		
 		
 
 
+<<<<<<< HEAD
 </div>	
 
 
+=======
+>>>>>>> 5b227b329d60ce1b95843992a29f12d0a10de147
 
 
 
