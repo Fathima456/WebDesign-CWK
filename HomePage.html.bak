@@ -35,25 +35,25 @@
 
 		<div class="mySlides fade">
 		  <div class="numbertext">1 / 4</div>
-		  <img src="basketballCourtedited.jpeg" style="width:100%">
+		  <img src="basketballCourtedited.jpeg" style = "width:100%">
 		  <div class="text">Caption Text</div>
 		</div>
 
 		<div class="mySlides fade">
 		  <div class="numbertext">2 / 4</div>
-		  <img src="Cricketpitch.jpg" style="width:100%">
+		  <img src="Cricketpitch.jpg" style = "width:100%">
 		  <div class="text">Caption Two</div>
 		</div>
 
 		<div class="mySlides fade">
 		  <div class="numbertext">3 / 4</div>
-		  <img src="tenniscourt.jpg" style="width:100%">
+		  <img src="tenniscourt.jpg" style = "width:100%">
 		  <div class="text">Caption Three</div>
 		</div>
 
 		<div class="mySlides fade">
 		  <div class="numbertext">4 / 4</div>
-		  <img src="swimmingpool2.jpg" style="width:100%">
+		  <img src="swimmingpool2.jpg" style = "width:100%">
 		  <div class="text">Caption Four</div>
 		</div>
 
@@ -199,10 +199,10 @@ function showSlides() {
 		<a href="#top" ><img src="icons/arrow.jpeg" alt="back to top" class="center" id="arrow"></a>
 =======
 		
-		<hr color="white">
+		<hr style="color:white">
 
 		
-		<p id="last" color="white">Page by</p>
+		<p id="last" style="color: white">Page by</p>
 >>>>>>> 6fe39cdbe781e4dfe960664c3f437ad32addf03f
 		</div>
 
