@@ -140,8 +140,8 @@ nav a {
     height: 480px;
     padding-top: 50px;
     padding-bottom: 50px;
-    
     margin: 0;
+    overflow-y: hidden;
     
     
 }
