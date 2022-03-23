@@ -1,6 +1,6 @@
 *{overflow-x:hidden;
   text-decoration:none;
-  overflow:hidden;
+  
 
 }
 
@@ -143,6 +143,7 @@ nav a {
     border-style: solid;
     margin: 0;
     border-left: 0;
+    overflow-y:hidden;
 
     
 
