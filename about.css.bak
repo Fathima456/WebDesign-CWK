@@ -246,6 +246,8 @@ hr{height:3px;
         max-width: max-content;
         margin: auto;
         color: black;
+		width:50%;
+		float:left-side;
         }
 .fix{
     background-color: #C41919;

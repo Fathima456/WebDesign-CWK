@@ -131,7 +131,7 @@ nav a {
 
 .topic{
 
-    background: linear-gradient(-50deg, #FFFFFF 40%,#C41919 30%, #000000 60%);
+    background: linear-gradient(-50deg, #FFFFFF 40%,#C41919 30%, #000000 30%);
     color: black;
     width: 100%;
     font-weight: bold;
