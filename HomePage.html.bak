@@ -25,7 +25,7 @@
 	
            
             </nav>
-           </div><br><br>
+        </div><br><br>
 	
 	
      <div >
@@ -35,7 +35,7 @@
 
 		<div class="mySlides fade">
 		  <div class="numbertext">1 / 4</div>
-		  <img src="basketballCourtedited.jpeg" style = "width:100%">
+		  <img src="basketballCourtedited.jpeg" style = "width:100%; object-fit: contain">
 		  <div class="text">Caption Text</div>
 		</div>
 
@@ -47,13 +47,13 @@
 
 		<div class="mySlides fade">
 		  <div class="numbertext">3 / 4</div>
-		  <img src="tenniscourt.jpg" style = "width:100%">
+		  <img src="tenniscourt.jpg" style = "width:100%; object-fit: contain">
 		  <div class="text">Caption Three</div>
 		</div>
 
 		<div class="mySlides fade">
 		  <div class="numbertext">4 / 4</div>
-		  <img src="swimmingpool2.jpg" style = "width:100%">
+		  <img src="swimmingpool2.jpg" style = "width:100%; object-fit: contain">
 		  <div class="text">Caption Four</div>
 		</div>
 
