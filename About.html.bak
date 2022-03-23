@@ -1,9 +1,13 @@
 <!doctype html>
 	<html lang="en">
 
-<head>
-	<meta charset="UTF-8">
-<title> About </title>
+		<head>
+			<meta charset="UTF-8">
+		<title> About page </title>
+
+
+		</head>
+		<body>
 
 
 
@@ -14,19 +18,7 @@
 
 
 
-
-</head>
-<body>
-
-
-
-
-
-
-
-
-
-</body>
+		</body>
 
 
 
