@@ -247,14 +247,15 @@ hr{height:3px;
         margin: auto;
         color: black;
 		width:50%;
-		float:left;
+		float:center;
         }
 .fix{
     background-color: #C41919;
 }
 
 .achievements {
-        max-width: max-content;
+        
+		width: 50%;
         margin: auto;
         color: black;
         }
