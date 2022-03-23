@@ -254,7 +254,8 @@ hr{height:3px;
 }
 
 .achievements {
-        max-width: max-content;
+        
+		width: 50%;
         margin: auto;
         color: black;
         }
