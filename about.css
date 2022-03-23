@@ -4,7 +4,7 @@
 
 }
 
-body { background-color: #C41919;
+body { background-color: white;
 color:black;
 font-family: 'Trebuchet MS', sans-serif;
 }
@@ -247,4 +247,7 @@ hr{height:3px;
         margin: auto;
         color: black;
         }
+.fix{
+    background-color: #C41919;
+}
 

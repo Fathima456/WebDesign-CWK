@@ -16,8 +16,7 @@ nav {
     overflow: hidden;
     margin-top: 0px;
     align: right;
-	position:fixed;
-    
+	
 }
 nav a {
     padding: 40px;
@@ -132,7 +131,7 @@ nav a {
 
 .topic{
 
-    background: linear-gradient(-50deg, #FFFFFF 60%, #000000 60%);
+    background: linear-gradient(-50deg, #FFFFFF 40%,#C41919 30%, #000000 30%);
     color: black;
     width: 100%;
     font-weight: bold;
@@ -326,3 +325,14 @@ img {vertical-align: middle;}
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
 }
+
+.row1 {
+	display: flex;
+	padding-right:250px;
+	padding-left:250px;
+	}
+
+/* Create three equal columns that sits next to each other */
+.column1 {
+	padding: 20px;	
+	}	
