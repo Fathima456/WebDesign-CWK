@@ -171,6 +171,7 @@ nav a {
 	bottom:0;
 	width:100%;
     color: white;
+	margin-bottom: 100px; 
     
 	text-align:center;
 	padding:30px;
@@ -258,6 +259,7 @@ hr{height:3px;
 
 .bottomnav{
   background-color: black;
+  margin: 0;
 }
 
 * {box-sizing: border-box;}
