@@ -58,7 +58,7 @@ nav a {
 }
 
 
-
+/*
 .Slide {
 	margin-left:0;
 	margin-right:0;
@@ -78,13 +78,7 @@ nav a {
    
 	
 }	
-/* =======
-    
-    position: static;
-    didplay: block;
-    
->>>>>>> Stashed changes */
-    
+
 .slider {
 	max-width:900px;
 	height:700px;
@@ -111,7 +105,7 @@ nav a {
 	width:800px;
     height:900px;	
 }
-
+*/
 
 
 
@@ -263,7 +257,7 @@ img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 800px;
+  max-width: 1000px;
   position: relative;
   margin: auto;
 }
