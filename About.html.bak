@@ -29,7 +29,7 @@
 		   
 			<!--About-->
 			<div id="about">
-			<h1><center>About</center></h1>
+			<h1  class="h1"><center>About</center></h1>
 			<p><center>Welcome to NDure Training Centre, located in San Diego, California, United States.<br>
 			Our vision is to train and encourage young sports enthusiasts & support professional 
 			athletes to <br>compete in national and international level tournaments. We have experienced
@@ -51,7 +51,8 @@
 <br>
 
 			<!--History-->
-			<p>
+			<h1  class="h1"><center>History</center></h1>
+			<p align="center"><center>
 			NDure training center has a long and proud history. 
 			From its beginnings in the 1950s, there have been many people who have contributed to the club as players, administrators, and social members. 
 			This page will try to keep their memories alive and recognize the efforts they have made to make the club what it is today.
@@ -59,23 +60,40 @@
 			He was the president of the NDure.
 			NDure did more than 100 projects.
 			In the past till present, NDure training center is the best training center in the world
-			</p>
+			</center></p>
+			
+			<br><br>
+			
+			<div class="row1" >
+				<div class="column1">
+					<img src="https://github.com/Fathima456/git-test/blob/master/Web%20Designing/oldbasketball.jpg?raw=true" alt=" height="250" width="300" style="border-radius:20px;" >
+				</div>	
+				
+				<div class="column1">
+					<img src="https://github.com/Fathima456/git-test/blob/master/Web%20Designing/oldtennis.jpg?raw=true" alt=" height="250" width="300" style="border-radius:20px;" >
+				</div>
+			
+				<div class="column1">
+					<img src="https://github.com/Fathima456/git-test/blob/master/Web%20Designing/oldswimming.jpg?raw=true" alt=" height="250" width="300" style="border-radius:20px;" >
+				</div>
+			</div>
 
 
 
 
-<div class="coaches">
 <a id="coachDirect"></a>
 
+	
 		
 		
 		
 		<br>
 		<br>
 		<br>
-		<div class = "achievements">
+		
 		<a id = "achieveDirect"></a>
-			<h1 align = "center" >Achievements</h1>
+			<h1 align = "center" class="h1">Achievements</h1>
+			<div class = "achievements">
 			<br>
 			<p>We were thrilled to win the Exeter and District Tennis League in 2019</p>
 			<img src = "tenniswin.jpg" style = "width:100%">
@@ -104,13 +122,14 @@
 		
 		
 		
-		<div class="coaches">
+		
 
 	
 	
 
 
-	<h1 align="center">Coaches </h1>
+	<h1 align="center" class="h1">Coaches </h1>
+	<div class="coaches">
 	<h3>Cricket</h3>
 
 	<img src="coaches/cricket coach.webp" class="main">
