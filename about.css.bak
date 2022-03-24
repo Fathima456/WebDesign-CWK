@@ -260,13 +260,20 @@ hr{height:3px;
         color: black;
         }
 
-.row {
+.row1 {
 	display: flex;
 	padding-right:250px;
 	padding-left:250px;
 	}
 
 /* Create three equal columns that sits next to each other */
-.column {
+.column1 {
 	padding: 20px;	
 	}	
+
+    .h1{
+        background-color:#C41919 ;
+        color: white;
+        text-align-last: center;
+       padding: 15px 32px;
+    }
