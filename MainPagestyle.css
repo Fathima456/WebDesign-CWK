@@ -177,13 +177,13 @@ h2{text-align:right;
 	
 }
 .member{
-	height:80px;
-	width:80px;
+	height:100px;
+	width:100px;
 	text-align:right;
 	
 	position:absolute;
 	bottom:100px;
-	right:50px;
+	right:80px;
 	margin-right:1px;
 	transform:translate(-25%,30%);
 	
