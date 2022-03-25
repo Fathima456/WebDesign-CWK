@@ -157,8 +157,9 @@ nav a {
 	text-align:center;
 	display:inline;
 	color:white;
-  margin: auto;
-  width:50%;
+  margin-left:10px ;
+  margin-right: 10px;
+  width:30%;
 }
  
 
