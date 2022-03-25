@@ -145,11 +145,13 @@ nav a {
 	height:450px;	
 }
 h1{text-align:left;
-	color:#fff;
+	color:#000;
+	position:absolute;
 
 }
 h2{text-align:right;
-	color:#fff;
+	color:#000;
+	position:absolute;
 	
 }
 
