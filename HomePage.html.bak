@@ -106,8 +106,8 @@ function showSlides() {
 		<h1>Welcome to <br> Ndure Training <br>Center</h1></div>
 		
 			
-		<h2>Become A <br>Member Today<br>
-		<img src="member.png" alt="membership" class="member" ></h2>
+		<h2>Become A <br>Member Today<br></h2>
+		<img src="member.png" alt="membership" class="member" >
 
 	</div>
 
@@ -115,7 +115,7 @@ function showSlides() {
             
   
 	 <!--icon images-->
-	<center>  
+	
 	<div class="row">
 		<div class="column">
 			<a href="court"><img src="icons/court.webp" alt="Court Availability"></a>
@@ -130,7 +130,8 @@ function showSlides() {
 			<a href="icons"><p>Tournaments</p></a>
 		</div>
 	</div>
-</center>
+
+
 		<br><br><br><br><br><br>
 	  
 
