@@ -178,9 +178,8 @@ h2{text-align:right;
 }
 .member{text-align:right;
 		position:absolute;
-		bottom:60px;
-		right:10px;
-		margin-right:120px;
+		height:40px;
+		width:40px;
 		
 		
 	
