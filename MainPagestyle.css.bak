@@ -147,8 +147,8 @@ nav a {
 }
 h1{text-align:left;
 	color:#000;
-	top:55%;
-	left:50%;
+	top:100px;
+	left:0;
 	transform:translate(-25%,50%);
 	position:absolute;
 
