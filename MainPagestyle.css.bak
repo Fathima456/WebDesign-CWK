@@ -9,8 +9,6 @@ body { background-color: #C41919;
 color:black;
 font-family: 'Trebuchet MS', sans-serif;
 }
-.logo{position:fixed;
-}
 
 nav {
     background-color: #C41919;
@@ -19,7 +17,7 @@ nav {
     overflow: hidden;
     margin-top: 0px;
     align: right;
-	position:relative;
+
 	
 	
 }
@@ -30,7 +28,7 @@ nav a {
     color: white;
     margin-left: auto;
     margin-right: auto;
-	display:inline-block;
+	
 }
 
 
@@ -131,13 +129,13 @@ nav a {
 
 .topic{
 
-    background: linear-gradient(-50deg, #FFFFFF 40%,#C41919 60%, #000000 30%);
+    background:fff;
     color: black;
     width: 100%;
     font-weight: bold;
     text-align: left;
     font-size: 25px;
-    height: 480px;
+    height: 420px;
     padding-top: 50px;
     padding-bottom: 50px;
     padding-left: 20px;
