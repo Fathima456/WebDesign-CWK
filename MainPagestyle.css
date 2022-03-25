@@ -149,7 +149,7 @@ nav a {
 }
 h1{text-align:left;
 	color:#000080;
-	top:60px;
+	top:50px;
 	left:0;
 	transform:translate(-25%,50%);
 	position:absolute;
@@ -169,7 +169,7 @@ h2{text-align:right;
 	right:0;
 	margin-right:120px;
 	transform:translate(-25%,50%);
-	font-size:30px;
+	
 	-webkit-text-stroke-width:0.4px;
 	-webkit-text-stroke-color:#000080;
 	
