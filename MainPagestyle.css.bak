@@ -128,7 +128,7 @@ nav a {
 }
 
 .topic{
-
+	background-size:auto;
     background-color:#fff;
     color: black;
     width: 100%;
