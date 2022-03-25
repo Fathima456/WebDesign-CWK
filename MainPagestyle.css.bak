@@ -146,10 +146,12 @@ nav a {
 }
 h1{text-align:left;
 	color:#000;
+	position:absolute;
 
 }
 h2{text-align:right;
 	color:#000;
+	position:absolute;
 	
 }
 
