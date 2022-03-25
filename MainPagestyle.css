@@ -147,6 +147,9 @@ nav a {
 }
 h1{text-align:left;
 	color:#000;
+	top:55%;
+	left:50%;
+	transform:translate(-25%,50%);
 	position:absolute;
 
 }
