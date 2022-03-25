@@ -96,12 +96,12 @@ function showSlides() {
 		</div>
     </div><br><br><br><br>
      <div class="topic">
-	 <img src="football.jpeg" class="img" >
+	 <img src="footballteam3.jpeg" class="img" >
 		
 
-		<h1 align="left" >Welcome to <br> Ndure Training <br>Center</h1>
+		<h1>Welcome to <br> Ndure Training <br>Center</h1>
 			
-		<h2 align="right" >BECOME A MEMBER TODAY <img src="icons/member.webp"></h2>
+		<h2>Become a member today <img src="icons/member.webp"></h2>
 
 	</div>
 
@@ -109,7 +109,7 @@ function showSlides() {
             
   
 	 <!--icon images-->
-	  
+	<center>  
 	<div class="row">
 		<div class="column">
 			<a href="court"><img src="icons/court.webp" alt="Court Availability"></a>
@@ -124,6 +124,7 @@ function showSlides() {
 			<a href="icons"><p>Tournaments</p></a>
 		</div>
 	</div>
+</center>
 		<br><br><br><br><br><br>
 	  
 

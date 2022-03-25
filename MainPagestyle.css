@@ -143,11 +143,16 @@ nav a {
     overflow-y: hidden;   
 }
 .img{width:100%;
-	opacity:0.3;
+	opacity:0.3;	
+}
+h1{text-align:left;
+	color:#fff;
 
+}
+h2{text-align:right;
+	color:#fff;
 	
 }
-
 
 
 .column{
