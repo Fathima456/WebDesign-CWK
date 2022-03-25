@@ -9,7 +9,7 @@ body { background-color: #C41919;
 color:black;
 font-family: 'Trebuchet MS', sans-serif;
 }
-.fix{position:sticky;
+.logo{position:fixed;
 }
 
 nav {
@@ -30,6 +30,7 @@ nav a {
     color: white;
     margin-left: auto;
     margin-right: auto;
+	display:inline-block;
 }
 
 
