@@ -153,11 +153,14 @@ h1{text-align:left;
 	position:absolute;
 	margin-left:120px;
 	font-family:fantasy;
+	-webkit-text-stroke-width:1px;
+	-webkit-text-stroke-color:white;
+	
 	
 
 }
 h2{text-align:right;
-	color:#ccff00;
+	color:#1E90FF;
 	position:absolute;
 	top:60px;
 	right:0;
