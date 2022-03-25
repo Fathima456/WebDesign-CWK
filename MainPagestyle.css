@@ -9,6 +9,8 @@ body { background-color: #C41919;
 color:black;
 font-family: 'Trebuchet MS', sans-serif;
 }
+.fix{position:sticky;
+}
 
 nav {
     background-color: #C41919;
@@ -17,6 +19,7 @@ nav {
     overflow: hidden;
     margin-top: 0px;
     align: right;
+	
 	
 }
 nav a {
