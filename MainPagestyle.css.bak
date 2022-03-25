@@ -161,6 +161,15 @@ h2{text-align:right;
 	right:0;
 	margin-right:120px;
 	transform:translate(-25%,50%);
+	font-size:30px;
+	
+}
+.member{text-align:right;
+		position:absolute;
+		top:80px;
+		right:10px;
+		margin-right:120px;
+		
 	
 }
 
