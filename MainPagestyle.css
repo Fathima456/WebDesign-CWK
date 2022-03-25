@@ -156,7 +156,8 @@ nav a {
 	width:30%;
 	padding:4px;
 	display:inline;
-	color:white
+	color:white;
+  align: center;
 }
  
 
