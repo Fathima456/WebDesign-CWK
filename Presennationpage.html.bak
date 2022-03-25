@@ -1,0 +1,49 @@
+<!doctype html>
+<html>
+
+    <head>
+       <title>Presenation Page</title>
+	   <meta http-equiv = "refresh" content = "4;url=HomePage.htmls">
+	   <style>
+	   
+	      body { font-family: Monospace;}
+	      h1 { text-align:center; font-size: 80px }
+		  
+		  
+		
+		  #liststyle {font-size: 20px;}
+	   
+	   
+	   
+	   </style>
+	
+    </head>
+
+    <body>
+	
+	 <h1>Welcome !!</h1>
+	 <hr>
+	 <p style = "font-size:50px;">Module: Web Development and Design (4COSC011W)</p>
+	 <p style = "font-family:Monospace; font-size: 40px;" >Subject: Sports</p>
+	 <p style = "font-size: 30px;">Group members:</p>
+	 <ul id = "liststyle">
+	    <li>Fathima Shaima</li>
+		<li>Nathali Liyanage</li>
+		<li>Anudi Perera</li>
+		<li>Indumini Amarasena</li>
+	</ul>	
+	 
+	
+	 
+
+
+	
+    </body>	
+	
+    
+	
+	
+	
+	
+	
+	
