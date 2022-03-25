@@ -176,7 +176,10 @@ h2{text-align:right;
 	-webkit-text-stroke-color:#1E90FF;
 	
 }
-
+.member{
+	height:120px;
+	width:120px;
+}
 		
 		
 		
