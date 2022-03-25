@@ -135,10 +135,8 @@ nav a {
     font-weight: bold;
     text-align: left;
     font-size: 25px;
-    height: 549px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    padding-left: 20px;
+    height: 450px;
+    
     margin-left: 0;
     overflow-y: hidden;   
 }
