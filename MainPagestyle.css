@@ -155,11 +155,11 @@ nav a {
 	margin-right:1px;
 	float:left;
 	text-align:center;
-	width:30%;
-	padding:4px;
+	padding:auto;
 	display:inline;
 	color:white;
-  align-content: center;
+  margin: auto;
+  width:50%;
 }
  
 
