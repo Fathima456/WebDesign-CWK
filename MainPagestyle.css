@@ -135,7 +135,6 @@ nav a {
     font-weight: bold;
     text-align: left;
     font-size: 20px;
-	margin-left:100px;
     height: 450px;
 	position:relative;
     
@@ -152,6 +151,7 @@ h1{text-align:left;
 	left:0;
 	transform:translate(-25%,50%);
 	position:absolute;
+	margin-left:50px;
 
 }
 h2{text-align:right;
