@@ -169,6 +169,7 @@ h2{text-align:right;
 	right:0;
 	margin-right:120px;
 	transform:translate(-25%,50%);
+	font-family:fantasy;
 	
 	-webkit-text-stroke-width:0.7px;
 	-webkit-text-stroke-color:#1E90FF;
