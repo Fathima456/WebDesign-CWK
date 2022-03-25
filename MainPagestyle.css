@@ -140,9 +140,10 @@ nav a {
     padding-bottom: 50px;
     padding-left: 20px;
     margin-left: 0;
-    overflow-y: hidden;
-    
-    
+    overflow-y: hidden;   
+}
+.img{width:100%;
+	
 }
 
 
