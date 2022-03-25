@@ -142,7 +142,7 @@ nav a {
     overflow-y: hidden;   
 }
 .img{width:100%;
-	opacity:0.3;
+	opacity:0.5;
 	height:450px;	
 }
 h1{text-align:left;
@@ -153,6 +153,7 @@ h1{text-align:left;
 	position:absolute;
 	margin-left:120px;
 	font-family:fantasy;
+	
 
 }
 h2{text-align:right;
