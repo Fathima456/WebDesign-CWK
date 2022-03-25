@@ -171,7 +171,7 @@ h2{text-align:right;
 	transform:translate(-25%,50%);
 	
 	-webkit-text-stroke-width:0.4px;
-	-webkit-text-stroke-color:#000080;
+	-webkit-text-stroke-color:#1E90FF;
 	
 }
 .member{text-align:right;
