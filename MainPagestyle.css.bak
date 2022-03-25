@@ -149,7 +149,7 @@ nav a {
 }
 h1{text-align:left;
 	color:#000080;
-	top:60px;
+	top:50px;
 	left:0;
 	transform:translate(-25%,50%);
 	position:absolute;
