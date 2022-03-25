@@ -13,7 +13,7 @@
     
     <a name="top"></a>
    
-        <div class="fix">
+        <div id="fix">
         	<img id = "logo" src="logo.png" alt="logo"><br>
             <nav align="center" >
                
@@ -88,6 +88,20 @@ function showSlides() {
   dots[slideIndex-1].className += " active";
   setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
+
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("fix");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+
 </script>
 	 
 	 
