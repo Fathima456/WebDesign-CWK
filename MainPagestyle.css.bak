@@ -157,6 +157,9 @@ h1{text-align:left;
 h2{text-align:right;
 	color:#c41919;
 	position:absolute;
+	top:60px;
+	right:0;
+	margin-right:120px;
 	
 }
 
