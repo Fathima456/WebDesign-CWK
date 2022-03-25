@@ -149,11 +149,15 @@ h1{text-align:left;
 	color:#fff;
 
 }
+h2{text-align:right;
+	color:#fff;
+	
+}
 
 
 .column{
-	margin-left:1px;
-	margin-right:1px;
+	padding-left:1px;
+	padding-right:1px;
 	float:left;
 	text-align:center;
 	display:inline;
