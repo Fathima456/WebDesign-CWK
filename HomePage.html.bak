@@ -35,22 +35,22 @@
 	 <div class="slideshow-container">
 
 		<div class="mySlides fade">
-		  <img src="basketballCourtedited.jpeg" style = "width:100%; object-fit: contain">
+		  <img src="BasketballeditedCourt.png" style = "width:100%; object-fit: contain">
 		  <div class="text">Basketball Court</div>
 		</div>
 
 		<div class="mySlides fade">
-		  <img src="Cricketpitch.jpg" style = "width:100% ;object-fit: contain">
+		  <img src="CricketEditedPitch.png" style = "width:100% ;object-fit: contain">
 		  <div class="text">Cricket Net Pitch </div>
 		</div>
 
 		<div class="mySlides fade">
-		  <img src="tenniscourt.jpg" style = "width:100%; object-fit: contain">
+		  <img src="editedTennisCourt.png" style = "width:100%; object-fit: contain">
 		  <div class="text">Tennis Court</div>
 		</div>
 
 		<div class="mySlides fade">
-		  <img src="swimmingpool2.jpg" style = "width:100%; object-fit: contain">
+		  <img src="SwimmingPool2Edited.png" style = "width:100%; object-fit: contain">
 		  <div class="text">Swimming Pool</div>
 		</div>
 
@@ -98,11 +98,11 @@ function showSlides() {
      <div class="topic">
 	 <img src="footballteam3.jpeg" class="img" >
 		
-
-		<h1>Welcome to <br> Ndure Training <br>Center</h1>
+		<div class="centered">
+		<h1>Welcome to <br> Ndure Training <br>Center</h1></div>
 		
 			
-		<h2>Become a <br>member today</h2><br>
+		<h2>Become A <br>Member Today</h2><br>
 		<img src="icons/member.webp">
 
 	</div>

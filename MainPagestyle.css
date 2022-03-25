@@ -134,8 +134,9 @@ nav a {
     width: 100%;
     font-weight: bold;
     text-align: left;
-    font-size: 25px;
+    font-size: 20px;
     height: 450px;
+	position:relative;
     
     margin-left: 0;
     overflow-y: hidden;   
@@ -146,12 +147,21 @@ nav a {
 }
 h1{text-align:left;
 	color:#000;
+	top:60px;
+	left:0;
+	transform:translate(-25%,50%);
 	position:absolute;
+	margin-left:120px;
 
 }
 h2{text-align:right;
-	color:#000;
+	color:#c41919;
 	position:absolute;
+	top:60px;
+	right:0;
+	margin-right:120px;
+	transform:translate(-25%,50%);
+	font-size:30px;
 	
 }
 
