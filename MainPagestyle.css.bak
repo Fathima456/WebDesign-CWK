@@ -129,13 +129,13 @@ nav a {
 
 .topic{
 
-    background: linear-gradient(-50deg, #FFFFFF 40%,#C41919 60%, #000000 30%);
+    background:fff;
     color: black;
     width: 100%;
     font-weight: bold;
     text-align: left;
     font-size: 25px;
-    height: 480px;
+    height: 420px;
     padding-top: 50px;
     padding-bottom: 50px;
     padding-left: 20px;
