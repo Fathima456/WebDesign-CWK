@@ -263,6 +263,8 @@ img {vertical-align: middle;}
 .slideshow-container {
   width: 80%;
   height: 900px;
+  overflow-x:hidden;
+  
 
   
   position: relative;
