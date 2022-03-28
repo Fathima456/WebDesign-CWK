@@ -279,4 +279,20 @@ hr{height:3px;
         text-align-last: center;
        padding: 15px 32px;
     }
+
+    #fix{
+        align-items: center;
+    }
+
+    p{
+        align-items: center;
+    }
+
+    #about{
+        align-items: center;
+    }
+
+    .history{
+        align-items: center;
+    }
 	
