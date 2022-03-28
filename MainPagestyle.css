@@ -10,6 +10,8 @@ color:black;
 font-family: 'Trebuchet MS', sans-serif;
 }
 
+/* CSS for main navigation */
+
 nav {
     background-color: #C41919;
     align-items: center;
@@ -44,9 +46,9 @@ nav a {
 
 .link:hover{
       cursor:pointer;
-        background:black;
-        color:white;
-        padding: 40px;
+       background:black;
+       color:white;
+       padding: 40px;
 
 }
 
@@ -61,55 +63,11 @@ nav a {
   
 }
 
-
-/*
-.Slide {
-	margin-left:0;
-	margin-right:0;
-	margin-top: 40px;
-    width: 100%;
-    display: flex;
-    height: auto;
-}
-
-.body {
-    margin:0;
-    padding:0;
-    height:100vh;
-    display:flex;
-	align-items:center;
-	justify-content:center;
-   
-	
-}	
-
-.slider {
-	max-width:900px;
-	height:700px;
-	border-radius:10px;
-	overflow:hidden;
-	
-    	
-	
-}
-
-.slides {
-	width:600%;
-	height:700px;
-	display:flex;
-	
-}
-
-.slide {
-	width: 50%;
-	transition: 2s;
-}
-
-.slide img {
-	width:800px;
-    height:900px;	
-}
-*/
+.fix{
+		align-items: center;
+    text-align: center;
+    align-content: center;
+	}
 
 
 
@@ -128,7 +86,7 @@ nav a {
 }
 
 .topic{
-	background-size:auto;
+		background-size:auto;
     background-color:#fff;
     color: black;
     width: 100%;
@@ -136,15 +94,14 @@ nav a {
     text-align: left;
     font-size: 30px;
     height: 450px;
-	position:relative;
-    
+	  position:relative;
     margin-left: 0;
     overflow-y: hidden;   
 }
-.img{width:100%;
-	
 
-	
+.img{
+
+	width:100%;
 	height:450px;	
 }
 h1{text-align:left;
@@ -176,25 +133,10 @@ h2{text-align:right;
 	-webkit-text-stroke-color:#1E90FF;
 	
 }
-/*.member{
-	height:120px;
-	width:120px;
-	text-align:right;
-	
-	position:absolute;
-	bottom:100px;
-	right:100px;
-	margin-right:1px;
-	transform:translate(-25%,30%);
-	
-}*/
-		
-		
-		
-	
 
-
-
+		
+/*CSS for bottom bar and bottom navigation*/		
+	
 .column{
 	padding-left:1px;
 	padding-right:1px;
@@ -247,28 +189,6 @@ hr{height:3px;
   margin-right: auto;
 }
 
-
-  .column a:link {
-  color: white;
-  background-color: transparent;
-  text-decoration: none;
-}
- .column a:visited {
-  color: white;
-  background-color: transparent;
-  text-decoration: none;
-}
- .column a:hover {
-  color: black;
-  background-color: transparent;
-  text-decoration: underline;
-}
-.column a:active {
-  color: white;
-  background-color: transparent;
-  text-decoration: underline;
-}
-
 .bottom a:link {
   color: white;
   background-color: transparent;
@@ -302,6 +222,31 @@ hr{height:3px;
   background-color: black;
   margin: 0;
 }
+
+/*CSS for page icons*/
+
+  .column a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+ .column a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+ .column a:hover {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.column a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
 
 * {box-sizing: border-box;}
 body {font-family: Verdana, sans-serif;}
@@ -382,8 +327,4 @@ img {vertical-align: middle;}
 	padding: 20px;	
 	}	
 
-	.fix{
-		align-items: center;
-        text-align: center;
-        align-content: center;
-	}
+	
