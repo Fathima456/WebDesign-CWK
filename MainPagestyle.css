@@ -381,3 +381,7 @@ img {vertical-align: middle;}
 .column1 {
 	padding: 20px;	
 	}	
+
+	#fix{
+		align-items: center;
+	}
