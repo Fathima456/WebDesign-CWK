@@ -282,6 +282,8 @@ hr{height:3px;
 
     #fix{
         align-items: center;
+        text-align: center;
+        align-content: center;
     }
 
     p{
