@@ -9,14 +9,15 @@
 
 		</head>
 		<body>
-		<a name="top"></a>
+		<a id="top"></a>
    
-        <div class="fix">
+        <div class="fix" align="center" >
         	<img id = "logo" src="logo.png" alt="logo"><br>
-            <nav align="center" >
+            <nav >
                
-                <a href="HomePage.html" class="link">Home</a>
-                <a href="#About" class="link">About</a>
+
+               <a href="HomePage.html" class="link">Home</a>   	
+                <a href="#About" class="link">About</a> 
                 <a href="#Gallery" class="link">Gallery</a>
                 <a href="#Shop" class="link">Shop</a>
                 <a href="#Quiz" class="link">Quiz</a>
@@ -29,8 +30,8 @@
 		   
 			<!--About-->
 			<div id="about">
-			<h1  class="h1">About</h1>
-			<p><center>Welcome to NDure Training Centre, located in San Diego, California, United States.<br>
+			<h1  class="h1" align="center">About</h1>
+			<p align="center">Welcome to NDure Training Centre, located in San Diego, California, United States.<br>
 			Our vision is to train and encourage young sports enthusiasts & support professional 
 			athletes to <br>compete in national and international level tournaments. We have experienced
 			<a href="#coachesDirect">coaches</a> in <br>our team, Providing you with sports Basketball, Swimming, Tennis, Cricket with
@@ -39,7 +40,7 @@
 			levels. We offer different types of membership packages based on underages. <br>Checkout our 
 			sports store for various equipment and sportswear.<br>
 			If you require further information, We’d love to hear from you and our
-			Management team is <br>always willing to help. We look forward to seeing you around the club.</center>
+			Management team is <br>always willing to help. We look forward to seeing you around the club.
 
 			</P>
 			</div>
@@ -51,8 +52,8 @@
 <br>
 
 			<!--History-->
-			<h1  class="h1"><center>History</center></h1>
-			<p><center>
+			<h1  class="h1" align="center">History</h1>
+			<p align="center">
 			NDure training center has a long and proud history. <br>
 			From its beginnings in the 1950s, there have been many people who have contributed to the club as players, administrators, and social members.<br>
 			This page will try to keep their memories alive and recognize the efforts they have made to make the club what it is today.<br>
@@ -60,7 +61,7 @@
 			He was the president of the NDure.
 			NDure did more than 100 projects.<br>
 			In the past till present, NDure training center is the best training center in the world
-			</center></p>
+			</p>
 			
 			<br><br>
 			
