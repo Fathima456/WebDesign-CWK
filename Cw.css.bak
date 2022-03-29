@@ -203,11 +203,30 @@ h1{
 		
 /*CSS for bottom bar and bottom navigation*/		
 	
+
+  
+
+
+
+.column{
+    margin-left:1px;
+    margin-right:1px;
+    float:left;
+    text-align:center;
+    width:30%;
+    padding:4px;
+    display:inline;
+    color:white
+}
+ 
+
+
 .bottom{
     position:relative;
     bottom:0;
     width:100%;
     color: white;
+    
     text-align:center;
     padding:30px;
     color:white;
@@ -242,7 +261,27 @@ hr{height:3px;
 }
 
 
-  
+  .column a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+ .column a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+ .column a:hover {
+  color: black;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.column a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
 .bottom a:link {
   color: white;
   background-color: transparent;
@@ -274,11 +313,9 @@ hr{height:3px;
 
 .bottomnav{
   background-color: black;
-  margin: 0;
 }
 
-.main {
-        height: 200px;
-        width: 400px;
+.fix{
+    background-color: #C41919;
+}
 
-    }
