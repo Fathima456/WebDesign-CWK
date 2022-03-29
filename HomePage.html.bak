@@ -4,7 +4,7 @@
 <head>
 	<meta charset="UTF-8">
     <link rel = "stylesheet" href = "MainPagestyle.css" >
-<title>Main Page</title>
+<title>NDure|Home Page</title>
 <link rel="icon" type="image/x-icon" href="logo.png">
 
 </head>
@@ -208,7 +208,8 @@ function showSlides() {
 		<hr style="color:white">
 
 		
-		<p id="last" style="color: white">Page by</p>
+		
+		
 
 		</div>
 
