@@ -167,9 +167,8 @@ h1{
 .readmore{
   margin-top:350px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    gap: 10%;
+    
+    
 	margin-right:100px;
 }
 
