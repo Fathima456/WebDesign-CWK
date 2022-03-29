@@ -161,24 +161,22 @@ h1{
 		
 /*CSS for bottom bar and bottom navigation*/		
 	
-
-
 .bottom{
-	position:relative;
-	bottom:0;
-	width:100%;
+    position:relative;
+    bottom:0;
+    width:100%;
     color: white;
-	text-align:center;
-	padding:30px;
-	color:white;
-	
-	
+    text-align:center;
+    padding:30px;
+    color:white;
+    
+    
 }
 .social{
-	text-align:center;
-	color: white;
+    text-align:center;
+    color: white;
 
-	
+    
 }
 
  #facebook:hover,#insta:hover,  #whatsapp:hover,#em:hover, #twitter:hover {
@@ -187,9 +185,9 @@ h1{
 
 
 hr{height:3px;
-	color:white;
-	background-color:black;
-	border-width:0;
+    color:white;
+    background-color:black;
+    border-width:0;
 }
 
 #last{text-align:center;
@@ -201,6 +199,8 @@ hr{height:3px;
   margin-right: auto;
 }
 
+
+  
 .bottom a:link {
   color: white;
   background-color: transparent;
@@ -235,6 +235,5 @@ hr{height:3px;
   margin: 0;
 }
 
-	
 
 
