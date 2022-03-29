@@ -87,6 +87,10 @@ h1{
 	font-family:Serif;
 	font-weight:bold;
 	font-size:40px;
+    background-color:#fff ;
+    color:black;
+    padding: 15px 32px;
+    
 }
 .row{
 	padding-left:300px;
