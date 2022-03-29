@@ -166,7 +166,7 @@ h1{
 
 .readmore{
   margin-top:350px;
-    display: flex;
+    display:inline;
 	float:left;
     
     
