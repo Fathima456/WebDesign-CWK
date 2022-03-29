@@ -170,9 +170,6 @@ h1{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-   
-    
-    
 	margin-right:700px;
 }
 
@@ -189,6 +186,11 @@ h1{
   cursor: pointer;
   margin-right:700px;
   float:left;
+  display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+	margin-right:700px;
+}
   
   
   
