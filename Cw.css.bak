@@ -175,7 +175,7 @@ h1{
 
 .editor {
   margin-left: 5px;
-  background-color: #808080;
+  background-color: #fff;
   align-items: center;
   border-radius: 10px;
   height: 35px;
@@ -202,10 +202,6 @@ h1{
 
 		
 /*CSS for bottom bar and bottom navigation*/		
-	
-
-  
-
 
 
 .column{
