@@ -169,10 +169,10 @@ h1{
   margin-left: 5px;
   background-color: rgb(26, 199, 230);
   align-items: center;
-  border-radius: 20px;
+  border-radius: 10px;
   height: 35px;
   width: 150px;
-  font-size: 20px;
+  font-size: 10px;
   color: rgb(0, 0, 0);
   cursor: pointer;
 }
