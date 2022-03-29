@@ -170,7 +170,7 @@ h1{
     flex-direction: row;
     justify-content: space-evenly;
     gap: 10%;
-	align-content:left;
+	margin-right:100px;
 }
 
 .editor {
