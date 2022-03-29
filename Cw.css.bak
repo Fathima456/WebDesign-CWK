@@ -184,7 +184,7 @@ h1{
   font-size: 10px;
   color: rgb(0, 0, 0);
   cursor: pointer;
-  margin-right:100px;
+  margin-right:300px;
   float:left;
   
   
