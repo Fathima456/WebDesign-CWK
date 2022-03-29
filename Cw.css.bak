@@ -100,6 +100,7 @@ h1{
 	
 }
 
+	
 .image{
 	display:block;
 	width:200px;
@@ -166,8 +167,10 @@ h1{
 
 .readmore{
   margin-top:350px;
-    display:inline;
-	float:left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 7%;
     
     
 	margin-right:700px;
