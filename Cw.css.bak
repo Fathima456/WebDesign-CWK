@@ -1,0 +1,240 @@
+*{overflow-x:hidden;
+  text-decoration:none;
+  
+  
+
+}
+
+body { background-color: #C41919;
+color:black;
+font-family: 'Trebuchet MS', sans-serif;
+}
+
+/* CSS for main navigation */
+
+nav {
+    background-color: #C41919;
+    align-items: center;
+    padding: 14px 16px;
+    overflow: hidden;
+    margin-top: 0px;
+    
+
+	
+	
+}
+nav a {
+    padding: 40px;
+    text-align: center;
+   
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+	
+}
+
+
+@media screen and (max-width: 500px) {
+nav a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+  
+}
+
+.link:hover{
+      cursor:pointer;
+       background:black;
+       color:white;
+       padding: 40px;
+
+}
+
+#logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+  height: 200px;
+  width: 200px;
+  margin-top: 10px;
+  
+}
+
+.fix{
+		align-items: center;
+    text-align: center;
+    align-content: center;
+	}
+
+
+
+.nav-auto div {
+	border: 2px solid #FFFFFF;
+	padding:5px;
+	border-radius:10px;
+	transition:1s;
+	margin-right:20px;
+}
+
+
+
+
+h1{
+	text-align:center;
+}
+.row{
+	padding-left:300px;
+	padding-right:3000px;
+	display:flex;
+	float:left;
+	
+}
+
+.image{
+	display:block;
+	width:200px;
+	height:250px;
+	
+}
+
+.overlay{
+	position:absolute;
+	text-align:center;
+	top:0;
+	left:0;
+	padding:10px;
+	background-color:rgba(0,0,0,0.6);
+	color:#fff;
+	font-family:sans-serif;
+	flex-direction:column;
+	overflow:hidden;
+	width:200px;
+	height:250px;
+	transition:opacity 0.25s;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	opacity:0;
+}
+
+	
+}
+
+.overlay>*{
+	transform:translateY(20px);
+	transition:opacity 0.25s;
+	
+}
+
+
+.overlay:hover{
+	opacity:1;
+	
+}
+.overlay:hover>*{
+	transform:translateY(0);
+}
+
+
+.text{
+
+	font-size:1em;
+	margin-top:0.25em;
+	
+}
+
+
+.content_img{
+	position:relative;
+	float:left;
+	display:block;
+	padding:10px;
+	
+	width:200px;
+	
+	
+}
+
+		
+/*CSS for bottom bar and bottom navigation*/		
+	
+
+
+.bottom{
+	position:relative;
+	bottom:0;
+	width:100%;
+    color: white;
+	text-align:center;
+	padding:30px;
+	color:white;
+	
+	
+}
+.social{
+	text-align:center;
+	color: white;
+
+	
+}
+
+ #facebook:hover,#insta:hover,  #whatsapp:hover,#em:hover, #twitter:hover {
+  animation: Zoom 1s ease infinite;
+}
+
+
+hr{height:3px;
+	color:white;
+	background-color:black;
+	border-width:0;
+}
+
+#last{text-align:center;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bottom a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+ .bottom a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+ .bottom a:hover {
+  color: #C41919 ;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.bottom a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
+#arrow{
+  filter: grayscale(100%);
+  height: 50px;
+  width: 50px;
+
+}
+
+.bottomnav{
+  background-color: black;
+  margin: 0;
+}
+
+	
+
+
