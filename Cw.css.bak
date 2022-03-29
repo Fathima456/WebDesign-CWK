@@ -167,7 +167,7 @@ h1{
 
 .editor {
   margin-left: 5px;
-  background-color: #0000FF;
+  background-color: #808080;
   align-items: center;
   border-radius: 10px;
   height: 35px;
