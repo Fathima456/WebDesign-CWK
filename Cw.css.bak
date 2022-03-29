@@ -84,6 +84,7 @@ nav a {
 
 h1{
 	text-align:center;
+	font-family:fantasy;
 }
 .row{
 	padding-left:300px;
