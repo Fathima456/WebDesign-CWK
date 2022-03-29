@@ -167,6 +167,7 @@ h1{
 .readmore{
   margin-top:350px;
     display: flex;
+	float:left;
     
     
 	margin-right:300px;
@@ -184,6 +185,7 @@ h1{
   color: rgb(0, 0, 0);
   cursor: pointer;
   margin-right:100px;
+  float:left;
   
   
 }
