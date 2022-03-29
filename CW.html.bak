@@ -88,16 +88,16 @@
 			
 			<div class="readmore">
 				<div class="show-student">
-					<button class="go-to-editor" onclick="window.open('')">Read More</button>
+					<button class="editor" onclick="window.open('')">Read More</button>
 				</div>
 				<div class="show-student">
-					<button class="go-to-editor" onclick="window.open('')">Read More</button>
+					<button class="editor" onclick="window.open('')">Read More</button>
 				</div>
 				<div class="show-student">
-					<button class="go-to-editor" onclick="window.open('')">Read More</button>
+					<button class="editor" onclick="window.open('')">Read More</button>
 				</div>
 				<div class="show-student">
-					<button class="go-to-editor" onclick="window.open('')">Read More</button>
+					<button class="editor" onclick="window.open('')">Read More</button>
 				</div>
 			</div>
 			
