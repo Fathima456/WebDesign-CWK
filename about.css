@@ -249,3 +249,11 @@ hr{height:3px;
         text-align: center;
     }
 	
+	
+	#about a:link {
+	color: blue;}
+	
+	#about a:visited {
+	color: blue;}
+	
+	
