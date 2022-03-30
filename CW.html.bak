@@ -52,7 +52,7 @@
 			</div>
 			
 			<div class="content_img">
-				<img src="s2.jpeg" alt="student 2" class="image">
+				<img src="stud_img/stud2.jpeg" alt="student 2" class="image">
 				<div class="overlay">
 					<p class="text">
 						Name: Nathali Liyanage<br>
@@ -64,7 +64,7 @@
 			</div>
 			
 			<div class="content_img">
-				<img src="orr.jpeg" alt="student 3" class="image">
+				<img src="stud_img/stud3 .jpeg" alt="student 3" class="image">
 				<div class="overlay">
 					<p class="text">
 						Name: Anudi Perera<br>
@@ -76,7 +76,7 @@
 			</div>
 			
 			<div class="content_img">
-				<img src="stud4.jpeg" alt="student 4" class="image">
+				<img src="stud_img/stud4.jpeg" alt="student 4" class="image">
 				<div class="overlay">
 					<p class="text">
 						Name: Indumini Amarasena<br>
