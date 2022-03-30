@@ -172,6 +172,9 @@ h1{
     justify-content: space-evenly;
 	gap:7%;
 	position:relative;
+	margin-right: 1px;
+
+	
 }
 
 .editor {
@@ -188,7 +191,7 @@ h1{
   align-content:left;
   margin:0;
 	padding-left:1px;
-	padding-right:100px;
+	padding-right:1px;
 	float:left;
 	text-align:center;
 	display:inline;
