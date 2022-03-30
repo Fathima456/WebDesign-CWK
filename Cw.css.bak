@@ -187,9 +187,7 @@ h1{
   cursor: pointer;
   align-content:left;
   margin:0;
-  position:absolute;
-   -ms-transform: translateY(-20%);
-  transform: translateY(-20%);
+
   
  
 }

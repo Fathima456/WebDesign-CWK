@@ -187,8 +187,16 @@ h1{
   cursor: pointer;
   align-content:left;
   margin:0;
-  position:absolute;
-  
+	padding-left:1px;
+	padding-right:1px;
+	float:left;
+	text-align:center;
+	display:inline;
+  margin-left:10px ;
+  margin-right: 10px;
+
+}
+
   
  
 }
