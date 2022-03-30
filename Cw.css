@@ -165,57 +165,6 @@ h1{
 }
 
 
-.readmore{
-  margin-top:350px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-	gap:7%;
-	position:relative;
-	margin-right: 1px;
-
-	
-}
-
-.editor {
-  margin-left: 5px;
-  background-color: #fff;
-  align-items: left-side;
-  border-radius: 10px;
-  height: 35px;
-  font-weight:bold;
-  width: 100px;
-  font-size: 10px;
-  color: rgb(0, 0, 0);
-  cursor: pointer;
-  align-content:left;
-  margin:0;
-	padding-left:1px;
-	padding-right:1px;
-	float:left;
-	text-align:center;
-	display:inline;
-  margin-left:1px ;
-  margin-right: 1px;
-
-}
-
-  
- 
-
-  
-  
-  
-
-
-.editor:hover{
-  background-color: rgb(0, 0, 0);
-  color: rgb(26, 199, 230);
-
-}
-
-
-
 
 		
 /*CSS for bottom bar and bottom navigation*/		
