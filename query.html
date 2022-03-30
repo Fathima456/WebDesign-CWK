@@ -1,15 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
+<link rel="icon" type="image/x-icon" href="logo.png">
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Query Form</title>
 
-    <link rel="icon" type="image/x-icon" href="logo.png">
-
-    <script src="https://smtpjs.com/v3/smtp.js"></script>
+     <script src="https://smtpjs.com/v3/smtp.js"></script>
     <script >
+
+        
+
         function validateForm() {
     let name = document.getElementById("name").value;
     let email = document.getElementById("email").value;
@@ -27,6 +31,8 @@
         });
         alert("Missing Values : " + missingValues);
         return false;
+
+   
 
     } else {
         var form = document.getElementById('myForm');
@@ -49,10 +55,9 @@
             form.style.display = "none";
 
         }
-
-        
     }
 }
+
 
 function editForm() {
     var form = document.getElementById('myForm');
@@ -63,6 +68,7 @@ function editForm() {
         div.style.display = "none";
     }
 }
+
 
 
 
@@ -96,386 +102,10 @@ function sendEmail() {
 
 
 
-    <style>
-
-
-*{overflow-x:hidden;
-  text-decoration:none;
-
-
-}
-    body{
-        margin-left: 0px;
-        margin-right: 0px;
-        font-family: 'Trebuchet MS', sans-serif;
-
-
-    }
-
-
-
-    div.form{
-        float: left;
-        border-color: #C41919;
-    }
-
-input[type=text]{
-  width: 80%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  border-color: #C41919;
-}
-
-input[type=email]{
-  width: 80%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  box-sizing: border-box;
-  border-color: #C41919;
-
-}
-
-#button {
-  background-color: #C41919;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-}
-
-
-
-
-#details {
-  width: 80%;
-  height: 50px;
-  padding: 12px 20px;
-  box-sizing: border-box;
-  border: 1px solid #ccc;
-  border-radius: 2px;
-  border-color: #C41919;
-  background-color: #f8f8f8;
-  font-size: 16px;
-  resize: none;
-}
-#details:hover{
-    color: grey;
-}
-
-h1{
-    text-align-last: center;
-    background-color:#C41919;
-    color: white;
-    padding: 15px 32px;
    
-}
-
-input[type='radio']{
-    accent-color: #C41919;
-    
-
-        
-    }
-input[type="textbox"]{
-    position: static;
-}
-
-
-.form {
-        margin: 0 auto;
-        padding-right:20px;
-        padding-left:20px;
-        
-     min-width:150px;
-     background: white;
-     height: 900px;
-     
-     
-        
-    }
-    .form label{
-        
-        
-  text-align:left;
-  padding-right:20px;
-        display:inline-block;
-     min-width:150px;
-     padding-top: 20px;
-  
-}
-        
-    
-    .form input{
-        
-        text-align: left;
-        
-        
-    }
-
-    
-
-
-
-
-
-#button:hover{
-        cursor:pointer;
-        background:black;
-        color:white;
-            }
-
-    input:hover{
-        cursor: pointer;
-        border-color: grey;
-
-    }
-
-    input[type="select"] :hover {
-    border-color: grey;
-}
-
-
-
-#display input[type="button"]{
-    background-color: #C41919;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-
-}
-
-#display input[type="submit"]{
-    background-color: #C41919;
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  margin: 4px 2px;
-  cursor: pointer;
-
-}
-
-#display input[type="submit"]:hover{
-
-    cursor:pointer;
-        background:black;
-        color:white;
-
-}
-
-#display input[type="button"]:hover{
-
-    cursor:pointer;
-        background:black;
-        color:white;
-
-}
-
-#display{
-
-        
-        font-size: 20px;
-        margin: 4px 2px;
-        padding: 15px 32px;
-       font-weight: bold;
-       background-color:white ;
-       height: 900px;
-    
-
-}
-
-
-
-nav {
-    background-color: #C41919;
-    align-items: center;
-    padding: 14px 16px;
-    overflow: hidden;
-    margin-top: 0px;
-    align: right;
-    
-}
-nav a {
-    padding: 40px;
-    text-align: center;
-    float: center;
-    color: white;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-
-@media screen and (max-width: 500px) {
-nav a {
-    float: none;
-    display: block;
-    width: 100%;
-    text-align: left;
-  }
-  
-}
-
-#logo {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  border-radius: 8px;
-  height: 200px;
-  width: 200px;
-  margin-top: 10px;
-  
-}
-
-.link:hover{
-      cursor:pointer;
-        background:black;
-        color:white;
-        padding: 40px;
-       
-
-}
-
-
-.column{
-    margin-left:1px;
-    margin-right:1px;
-    float:left;
-    text-align:center;
-    width:30%;
-    padding:4px;
-    display:inline;
-    color:white
-}
- 
-
-
-.bottom{
-    position:relative;
-    bottom:0;
-    width:100%;
-    color: white;
-    
-    text-align:center;
-    padding:30px;
-    color:white;
+<link rel = "stylesheet" href = "QueryPagestyle.css" >
     
     
-}
-.social{
-    text-align:center;
-    color: white;
-
-    
-}
-
- #facebook:hover,#insta:hover,  #whatsapp:hover,#em:hover, #twitter:hover {
-  animation: Zoom 1s ease infinite;
-}
-
-
-hr{height:3px;
-    color:white;
-    background-color:black;
-    border-width:0;
-}
-
-#last{text-align:center;
-}
-
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-
-  .column a:link {
-  color: white;
-  background-color: transparent;
-  text-decoration: none;
-}
- .column a:visited {
-  color: white;
-  background-color: transparent;
-  text-decoration: none;
-}
- .column a:hover {
-  color: black;
-  background-color: transparent;
-  text-decoration: underline;
-}
-.column a:active {
-  color: white;
-  background-color: transparent;
-  text-decoration: underline;
-}
-
-.bottom a:link {
-  color: white;
-  background-color: transparent;
-  text-decoration: none;
-}
- .bottom a:visited {
-  color: white;
-  background-color: transparent;
-  text-decoration: none;
-}
- .bottom a:hover {
-  color: #C41919 ;
-  background-color: transparent;
-  text-decoration: underline;
-}
-.bottom a:active {
-  color: white;
-  background-color: transparent;
-  text-decoration: underline;
-}
-
-
-#arrow{
-  filter: grayscale(100%);
-  height: 50px;
-  width: 50px;
-
-}
-
-.bottomnav{
-  background-color: black;
-}
-
-.fix{
-    background-color: #C41919;
-}
-
-
-
-
-
-
-</style>
-
-
 
 
 </head>
@@ -483,11 +113,12 @@ hr{height:3px;
 
     <body>
 
-<a name="top"></a>
-   
-        <div class="fix">
+<a id="top"></a>
+
+    <!--navigation bar--> 
+        <div class="fix" >
             <img id = "logo" src="logo.png" alt="logo"><br>
-            <nav align="center" >
+            <nav  >
                
                 <a href="HomePage.html" class="link">Home</a>
                 <a href="About.html" class="link">About</a>
@@ -495,6 +126,7 @@ hr{height:3px;
                 <a href="#Shop" class="link">Shop</a>
                 <a href="#Quiz" class="link">Quiz</a>
                 <a href="#Contact" class="link">Contact Us</a>
+                <a href="#Team" class="link">Our Team</a>
     
            
             </nav>
@@ -508,15 +140,15 @@ hr{height:3px;
 
 
 
-
-    <form name="myForm" action="" method="post" enctype="text/plain"  id="myForm" class="form" mailto:nathali.20210422@iit.ac.lk>
+<!--Form-->
+    <form name="myForm"  method="post" enctype="text/plain"  id="myForm" class="form" >
         
-        <div>
+        
         <label>Name:</label>
         <input type="text" name="name" id="name" placeholder="Enter your Full Name"><br><br>
         
         <label>E-mail:</label>
-        <input type="email" name="email" id="email" placeholder="Enter your Email"><br><br>
+        <input type="text" name="email" id="email" placeholder="Enter your Email"><br><br>
         
         <label>Subject:</label>
         <input type="text" name="subject"  id="subject" placeholder="Enter subject eg:Coaches,Fees">
@@ -525,26 +157,27 @@ hr{height:3px;
 
         
         <label>Details:</label>
-        <input type="textarea" name="details"  id="details" placeholder="Fill in your inquiry"><br><br>
+        <textarea name="details"  id="details" placeholder="Fill in your inquiry"></textarea><br><br>
 
         <p>Are you a member of our training facility?</p><br>
     
-        Yes
-    <input type="radio" name="member" value="Yes">&nbsp;
-        No
-    <input type="radio" name="member" value="No"><br><br><br>
+            Yes
+       <input type="radio" name="member" value="Yes">&nbsp;
+            No
+        <input type="radio" name="member" value="No"><br><br><br>
         
         <input type="button" onclick="validateForm()" value="View Query" id="button" > <br><br>
 
 
 
-    </div>
+   
     
 
 
      
         
     </form>
+     </div>
     <div id="display" style="display: none; color:black" ></div>
 
 
@@ -566,9 +199,9 @@ hr{height:3px;
         <a href="https://www.facebook.com/" target="_blank" id="facebook"><img src="icons/facebook.png" alt="facebook"></a> &nbsp; &nbsp; &nbsp;
         <a href="https://www.instagram.com/" target="_blank" id="insta"><img src="icons/INSTA.png" alt="instagram"></a> &nbsp; &nbsp; &nbsp;
         <a href="https://www.whatsapp.com/" target="_blank" id="whatsapp"><img src="icons/whatsapp.png" alt="whatsapp"></a> &nbsp; &nbsp; &nbsp;
-        <a href=""><img src="icons/email.jpg" alt="email" height="62px" width="62px" id="em"> </a> &nbsp; &nbsp; &nbsp;
+        <a href=""><img src="icons/email.jpg" alt="email" height="62" width="62" id="em"> </a> &nbsp; &nbsp; &nbsp;
         <a href="https://twitter.com/?lang=en" target="_blank" id="twitter">
-<img src="icons/Twitter.png" alt="Twitter"></a> &nbsp; &nbsp; &nbsp;
+        <img src="icons/Twitter.png" alt="Twitter"></a> &nbsp; &nbsp; &nbsp;
 
         
         
@@ -577,7 +210,7 @@ hr{height:3px;
         <hr style="color:white">
 
         
-        <p id="last" style="color: white">Page by</p>
+        <p id="last" style="color: white">Page by &nbsp; <a href="Nathali.html">Nathali Liyanage</a></p>
         </div>
 
         
