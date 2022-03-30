@@ -57,56 +57,7 @@ nav a {
   
 }
 
-/* 
 
-.Slide {
-    margin-left:0;
-    margin-right:0;
-    margin-top: 40px;
-    width: 100%;
-    display: flex;
-    height: auto;
-}
-
-.body {
-    margin:0;
-    padding:0;
-    height:100vh;
-    display:flex;
-    align-items:center;
-    justify-content:center;
-   
-    
-}   
-
-.slider {
-    max-width:900px;
-    height:700px;
-    border-radius:10px;
-    overflow:hidden;
-    
-        
-    
-}
-
-.slides {
-    width:600%;
-    height:700px;
-    display:flex;
-    
-}
-
-.slide {
-    width: 50%;
-    transition: 2s;
-}
-
-.slide img {
-    width:800px;
-    height:900px;   
-}
-
- */
 
 
 .nav-auto div {
@@ -277,87 +228,24 @@ hr{height:3px;
         background-color:#C41919 ;
         color: white;
         text-align-last: center;
-       padding: 15px 32px;
+        padding: 15px 32px;
+    }
+
+    .fix{
+        align-items: center;
+        text-align: center;
+        align-content: center;
+    }
+
+    p{
+        align-items: center;
+    }
+
+    #about{
+        text-align: center;
+    }
+
+    .history{
+        text-align: center;
     }
 	
-/*Student details css*/
-
-h1{background-color:#C41919 ;
-    color: white;
-	text-align:center;
-	padding: 15px 32px;
-}
-.row2{
-	padding-left:300px;
-	padding-right:3000px;
-	display:flex;
-	float:left;
-	
-}
-
-.image{
-	display:block;
-	width:200px;
-	height:250px;
-	
-}
-
-.overlay{
-	position:absolute;
-	text-align:center;
-	top:0;
-	left:0;
-	padding:10px;
-	background-color:rgba(0,0,0,0.6);
-	color:#fff;
-	font-family:sans-serif;
-	flex-direction:column;
-	overflow:hidden;
-	width:200px;
-	height:250px;
-	transition:opacity 0.25s;
-	display:flex;
-	align-items:center;
-	justify-content:center;
-	opacity:0;
-}
-
-
-.overlay>*{
-	transform:translateY(20px);
-	transition:opacity 0.25s;
-	
-}
-
-
-.overlay:hover{
-	opacity:1;
-	
-}
-.overlay:hover>*{
-	transform:translateY(0);
-}
-
-
-.text{
-
-	font-size:1em;
-	margin-top:0.25em;
-	
-}
-
-
-.content_img{
-	position:relative;
-	float:left;
-	display:block;
-	padding:10px;
-	width:200px;
-	
-	
-}
-
-	
-
-
-
