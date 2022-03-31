@@ -1,0 +1,172 @@
+<!doctype html>
+	<html lang="en">
+	
+		<head>
+			<meta charset = "UTF-8">
+			<title>NDure | SITE MAP</title>
+			
+			<link rel="icon" type="image/x-icon" href="https://github.com/Fathima456/git-test/blob/master/logo.png?raw=true">
+			<link rel="stylesheet" href="Sitemap.css">
+			
+		</head>
+		
+		
+		<body id="stu4-title5">
+		
+			<!-- Navigation bar-->
+    
+			<a id="top"></a>
+   
+				<div class="fix" >
+					<div class="logoB">
+						<img id = "logo" src="https://github.com/Fathima456/git-test/blob/master/logo.png?raw=true" alt="logo"><br>
+					</div>
+							<nav>
+				   
+								<a href="HomePage.html" class="link">Home</a>
+								<a href="About.html" class="link">About</a>
+								<a href="#Gallery" class="link">Gallery</a>
+								<a href="#Shop" class="link">Shop</a>
+								<a href="#Quiz" class="link">Quiz</a>
+								<a href="query.html" class="link">Contact Us</a>
+								<a href="CW.html" class="link">Our Team</a>
+		
+			   
+							</nav>
+				</div><br><br>
+		
+		
+			<!--Diagram SVG-->
+			<h1 class="Title5"><center><b>SITE MAP</b></center></h1>
+			
+			
+			<svg id="diagram" width = "1500" height = "600">
+			
+				<rect id="rec1" x="100" y="100" rx="20" ry="20" width="1300" height="80"/>
+				<text id="txt1" x="700" y="145"> HOME </text>
+				
+				
+				<line id="line1" x1="700" y1="180" x2="700" y2="220" stroke="white" stroke-width="5"/>
+				
+				
+				<line id="line2" x1="225" y1="220" x2="1225" y2="220" stroke="white" stroke-width="5"/>
+				
+				
+				<line id="line3" x1="225" y1="220" x2="225" y2="260" stroke="white" stroke-width="5"/>
+				
+				
+				<line id="line4" x1="425" y1="220" x2="425" y2="260" stroke="white" stroke-width="5"/>
+				
+				
+				<line id="line5" x1="625" y1="220" x2="625" y2="260" stroke="white" stroke-width="5"/>
+				
+				
+				<line id="line6" x1="825" y1="220" x2="825" y2="260" stroke="white" stroke-width="5"/>
+				
+				
+				<line id="line7" x1="1025" y1="220" x2="1025" y2="260" stroke="white" stroke-width="5"/>
+				
+				
+				<line id="line8" x1="1225" y1="220" x2="1225" y2="260" stroke="white" stroke-width="5"/>
+				
+				
+				<rect id="rec2" x="150" y="260" rx="20" ry="20" width="150" height="150"/>
+				<text id="txt2" x="225" y="345" > ABOUT </text>
+				
+				
+				<rect id="rec3" x="350" y="260" rx="20" ry="20" width="150" height="150"/>
+				<text id="txt3" x="425" y="345" > GALLERY </text>
+				
+				
+				<rect id="rec4" x="550" y="260" rx="20" ry="20" width="150" height="150"/>
+				<text id="txt4" x="625" y="345" > SHOP </text>
+				
+				
+				<rect id="rec5" x="750" y="260" rx="20" ry="20" width="150" height="150"/>
+				<text id="txt5" x="825" y="345"> QUIZ </text>
+				
+				
+				<rect id="rec6" x="950" y="260" rx="20" ry="20" width="150" height="150"/>
+				<text id="txt6" x="1025" y="345" > CONTACT US </text>
+				
+				
+				<rect id="rec7" x="1150" y="260" rx="20" ry="20" width="150" height="150"/>
+				<text id="txt7" x="1225" y="345"> OUR TEAM </text>
+
+				
+			</svg>
+			
+			
+			<!--bottom bar-->
+			<div class="bottomnav">
+				<div class="bottom">
+					<a href="#Home">Home</a> &nbsp; &nbsp;
+					<a href="About.html">About</a> &nbsp; &nbsp;
+					<a href="#Gallery">Gallery</a> &nbsp; &nbsp;
+					<a href="#Shop">Shop</a> &nbsp; &nbsp;
+					<a href="#Quiz">Quiz</a> &nbsp; &nbsp;
+					<a href="#Contact">Contact Us</a> &nbsp; &nbsp;
+					<a href="#Map">Site Map</a> &nbsp; &nbsp;
+				</div><br><br>
+				
+				<div class="social">
+
+					<a href="https://www.facebook.com/" target="_blank" id="facebook"><img src="https://github.com/Fathima456/git-test/blob/master/icons/facebook.png?raw=true" alt="facebook"></a> &nbsp; &nbsp; &nbsp;
+					<a href="https://www.instagram.com/" target="_blank" id="insta"><img src="https://github.com/Fathima456/git-test/blob/master/icons/INSTA.png?raw=true" alt="instagram"></a> &nbsp; &nbsp; &nbsp;
+					<a href="https://www.whatsapp.com/" target="_blank" id="whatsapp"><img src="https://github.com/Fathima456/git-test/blob/master/icons/whatsapp.png?raw=true" alt="whatsapp"></a> &nbsp; &nbsp; &nbsp;
+					<a href=""><img src="https://github.com/Fathima456/git-test/blob/master/icons/email.jpg?raw=true" alt="email"  id="em" height="62" width="62"> </a> &nbsp; &nbsp; &nbsp;
+					<a href="https://twitter.com/?lang=en" target="_blank" id="twitter">
+					<img src="https://github.com/Fathima456/git-test/blob/master/icons/Twitter.png?raw=true" alt="Twitter"></a> &nbsp; &nbsp; &nbsp;
+
+				
+				
+				</div><br><br>
+
+				<a href="#top" ><img src="https://github.com/Fathima456/git-test/blob/master/icons/arrow.jpeg?raw=true" alt="back to top" class="center" id="arrow"></a>
+
+				
+				<hr style="color:white">
+				
+				<p id="PE" style="color: white">Page by &nbsp; <a href="D:\IIT\L4\SEMESTER 2\4COSC011C Web Design and Development\ASSIGNMENTS\ANSWERS\PAGE EDITOR\InduminiPE.html">Indumini Amarasena</a></p>
+
+			</div>
+			
+			
+			<script>
+				
+				document.getElementById("rec1").addEventListener("click", function() {
+					document.location.href="";
+				});
+
+				document.getElementById("rec2").addEventListener("click", function() {
+						document.location.href="";
+				});
+
+				document.getElementById("rec3").addEventListener("click", function() {
+						document.location.href="";
+				});
+
+				document.getElementById("rec4").addEventListener("click", function() {
+						document.location.href="";
+				});
+
+				document.getElementById("rec5").addEventListener("click", function() {
+						document.location.href="";
+				});
+
+				document.getElementById("rec6").addEventListener("click", function() {
+						document.location.href="";
+				});
+
+				document.getElementById("rec7").addEventListener("click", function() {
+						document.location.href="";
+				});
+				
+				document.getElementById("rec8").addEventListener("click", function() {
+						document.location.href="";
+				});
+			</script>
+			
+		
+		</body>
+	</html>

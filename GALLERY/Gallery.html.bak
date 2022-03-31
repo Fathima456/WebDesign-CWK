@@ -1,0 +1,390 @@
+<!doctype html>
+	<html lang="en">
+	
+		<head>
+			<meta charset = "UTF-8">
+			<title>NDure | GALLERY</title>
+			
+			<link rel="icon" type="image/x-icon" href="https://github.com/Fathima456/git-test/blob/master/logo.png?raw=true">
+			<link rel="stylesheet" href="Gallery.css">
+			
+		</head>
+		
+		
+		<body id="stu4-title7"thumbnail>
+		
+		
+			<!-- Navigation bar-->
+    
+			<a id="top"></a>
+   
+				<div class="fix" >
+					<div class="logoB">
+						<img id = "logo" src="https://github.com/Fathima456/git-test/blob/master/logo.png?raw=true" alt="logo"><br>
+					</div>
+							<nav>
+				   
+								<a href="HomePage.html" class="link">Home</a>
+								<a href="About.html" class="link">About</a>
+								<a href="#Gallery" class="link">Gallery</a>
+								<a href="#Shop" class="link">Shop</a>
+								<a href="#Quiz" class="link">Quiz</a>
+								<a href="query.html" class="link">Contact Us</a>
+								<a href="file:///C:/Users/amara/Documents/GitHub/git-test/CW.html#Team" class="link">Our Team</a>
+		
+			   
+							</nav>
+				</div><br><br>
+			
+			
+			<h1 class="Title7"><center><b>GALLERY</b></center></h1>
+			<br><br><br>
+			
+			
+			<!--left pull down menu for select background colour-->
+			<div class="dropdown" style="float:left;">
+				<button class="dropbtn">Background colour</button>
+				<div class="dropdown-content" style="left:0;">
+					<option class="selectColor" onclick="changeColor (this)" value="#ffffff"> White</option>
+					<option class="selectColor" onclick="changeColor (this)" value="black"> Black</option>
+					<option class="selectColor" onclick="changeColor (this)" value="MediumSpringGreen"> Green</option>
+					<option class="selectColor" onclick="changeColor (this)" value="#80042f"> Maroon</option>
+					<option class="selectColor" onclick="changeColor (this)" value="#CC0033"> Pink</option>
+				</div>
+			</div>
+			
+			
+			<!--right pull down menu for selec text colour-->
+			<div class="dropdown" style="float:right;">
+				<button class="dropbtn">Text colour</button>
+				<div class="dropdown-content">
+						<option class="selectText"  onclick="changeTxt (this)" value="black">Black</option>
+						<option class="selectText"  onclick="changeTxt (this)" value="white">white</option>
+						<option class="selectText"  onclick="changeTxt (this)" value="#4ef578">Green</option>
+						<option class="selectText"  onclick="changeTxt (this)" value="#babfd9">Gray</option>
+						<option class="selectText"  onclick="changeTxt (this)" value="#CC0033">pink</option>
+				</div>
+			</div>
+			<br><br><br><br>
+		
+			
+			<!--pictures for gallery-->
+			<div class="row" >
+				<div class="column">
+					<img id="img1" src="https://mediaproxy.salon.com/width/1200/https://media.salon.com/2017/03/pickup-basketball.jpg" alt="Basketball" height="250" width="200" onmouseover="bigImg(this)" onmouseout="normalImg(this)" style="border-radius:20px;" >
+				</div>
+
+
+				<div class="column">
+					<img id="img2" src="https://s3-us-west-2.amazonaws.com/melingoimages/Images/94351.jpg" alt="Swimming" height="250" width="200" onmouseover="bigImg(this)" onmouseout="normalImg(this)" style="border-radius:20px;" >
+				</div>
+				
+				
+				<div class="column">
+					<img id="img3" src="https://www.yopik.in/image/catalog/images/cricketsetmainimage.jpg" alt="Cricket" height="250" width="200" onmouseover="bigImg(this)" onmouseout="normalImg(this)" style="border-radius:20px;" >
+				</div>
+			
+			
+				<div class="column">
+					<img id="img4" src="https://i.pinimg.com/564x/1b/14/2b/1b142b7c2083c35d549ef5aa58351548.jpg" alt="Tennis" height="250" width="200" onmouseover="bigImg(this)" onmouseout="normalImg(this)" style="border-radius:20px;" >
+				</div>
+			</div>
+			
+			
+			<!--big pic and the descrption-->
+			<div class="bigpic" id="bigpic1">    
+				<div class="paragraph">
+					<img class="picture" src="https://mediaproxy.salon.com/width/1200/https://media.salon.com/2017/03/pickup-basketball.jpg" alt="Basketball" width="350" height="300" style="border-radius:20px;">
+					<div class="title">
+							<h2 class="content">BASKETBALL</h2>
+							<p>Basketball is based on the fabric of Springfield College. 
+							The sport was developed by Springfield College teacher and graduate student James Naismith in 1891 and has 
+							grown into the global athletic practice that we know it is today.</p>
+					</div>
+				</div>
+			</div>
+			
+			
+			<!--big pic and the descrption-->	
+			<div class="bigpic" id="bigpic2">    
+				<div class="paragraph">
+					<img class="picture" src="https://s3-us-west-2.amazonaws.com/melingoimages/Images/94351.jpg" alt="Swimming" width="350" height="300" style="border-radius:20px;">
+					<div class="title">
+							<h2 class="content">SWIMMING</h2>
+							<p>Swimming, pleasure, and sports, as well as bodybuilding in the water including 
+							joint and limb motions and natural body floatation Swimming is well-known as a bodybuilder 
+							and is quite beneficial in the treatment and exercise of those with physical limitations.</p>
+					</div>
+				</div>
+			</div>
+			
+			
+			<!--big pic and the descrption-->   
+			<div class="bigpic" id="bigpic3">    
+				<div class="paragraph">
+					<img class="picture" src="https://www.yopik.in/image/catalog/images/cricketsetmainimage.jpg" alt="Cricket" width="350" height="300" style="border-radius:20px;">
+					<div class="title">
+							<h2 class="content">CRICKET</h2>
+							<p>Cricket has been a popular team activity for hundreds of years and is one of the world's most popular sports. 
+							It is particularly popular in India, Pakistan, Sri Lanka, Australia, the West Indies, and South Africa, and it 
+							originated in England.</p>
+					</div>
+				</div>
+			</div>
+			
+			
+			<!--big pic and the descrption-->	
+			<div class="bigpic" id="bigpic4">    
+				<div class="paragraph">
+					<img class="picture" src="https://i.pinimg.com/564x/1b/14/2b/1b142b7c2083c35d549ef5aa58351548.jpg" alt="Tennis" width="350" height="300" style="border-radius:20px;">
+					<div class="title">
+							<h2 class="content">TENNIS</h2>
+							<p>Tennis is a great activity to keep your health, fitness, strength, and agility in shape. 
+							It offers social and psychological advantages as well. As a social activity, you can play with a club or with 
+							friends and family.</p>
+					</div>
+				</div>
+			</div>
+			
+			
+			<!--pictures for gallery-->
+			<div class="row">
+				<div class="column">
+					<img id="img5" src="https://blog.playo.co/wp-content/uploads/2017/06/cricket-kids.jpg" alt="Cricket" height="250" width="200" onmouseover="bigImg(this)" onmouseout="normalImg(this)" style="border-radius:20px;" >
+				</div>	
+				
+				
+				<div class="column">
+					<img id="img6" src="https://i.pinimg.com/originals/88/11/47/881147c3b263f3080ec66632026cbe0c.jpg" alt="Tennis" height="250" width="200" onmouseover="bigImg(this)" onmouseout="normalImg(this)" style="border-radius:20px;" >
+				</div>
+				
+				
+				<div class="column">
+					<img id="img7" src="https://i.pinimg.com/originals/33/45/43/3345433d602c2c764348df346c53db2c.jpg" alt="Bakeball" height="250" width="200" onmouseover="bigImg(this)" onmouseout="normalImg(this)" style="border-radius:20px;" >
+				</div>
+				
+				
+				<div class="column">
+					<img id="img8" src="https://images.theconversation.com/files/435472/original/file-20211202-19-26j0je.jpg?ixlib=rb-1.1.0&rect=0%2C11%2C3888%2C2572&q=20&auto=format&w=320&fit=clip&dpr=2&usm=12&cs=strip" alt="Swimming" height="250" width="200" onmouseover="bigImg(this)" onmouseout="normalImg(this)" style="border-radius:20px;" >
+				</div>
+			</div>
+			
+			
+			<!--big pic and the descrption-->			
+			<div class="bigpic" id="bigpic5">    
+				<div class="paragraph">
+					<img class="picture" src="https://blog.playo.co/wp-content/uploads/2017/06/cricket-kids.jpg" alt="Cricket" width="350" height="300" style="border-radius:20px;">
+					<div class="title">
+							<h2 class="content">CRICKET</h2>
+							<p>To play cricket you need to be fit and strong, and have good hand-eye coordination and ball-handling skills. 
+							Cricket involves sprinting between wickets and running to stop balls, as well as bowling and throwing.
+							Endurance and stamina, Balance and coordination, Physical fitness, Improving hand-eye coordination are some health benefits of them.</p>
+					</div>
+				</div>
+			</div>
+			
+			
+			<!--big pic and the descrption-->	
+			<div class="bigpic" id="bigpic6">    
+				<div class="paragraph">
+					<img class="picture" src="https://i.pinimg.com/originals/88/11/47/881147c3b263f3080ec66632026cbe0c.jpg" alt="Tennis" width="350" height="300" style="border-radius:20px;">
+					<div class="title">
+							<h2 class="content">TENNIS</h2>
+							<p>Tennis can be a great workout and lots of fun. Playing tennis has many health benefits.
+							increasing aerobic capacities, lowering resting heart rate and blood pressure, improving metabolic function, increasing bone density, lowering body fat, improving muscle tone, strength and flexibility, increasing reaction times are some health benefits of them.</p>
+					</div>
+				</div>
+			</div>
+			
+
+			<!--big pic and the descrption-->	
+			<div class="bigpic" id="bigpic7">    
+				<div class="paragraph">
+					<img class="picture" src="https://i.pinimg.com/originals/33/45/43/3345433d602c2c764348df346c53db2c.jpg" alt="Bakeball" width="350" height="300" style="border-radius:20px;">
+					<div class="title">
+							<h2 class="content">BASKETBALL</h2>
+							<p>Basketball is a sport in which two teams of five players compete against each other in a rectangular venue, 
+							generally indoors. 
+							Each side attempts to score a goal by tossing the ball past the other team's pole, a high horizontal hoop, 
+							and a basket net.</p>
+					</div>
+				</div>
+			</div>
+			
+	
+			<!--big pic and the descrption-->	
+			<div class="bigpic" id="bigpic8">    
+				<div class="paragraph">
+					<img class="picture" src="https://images.theconversation.com/files/435472/original/file-20211202-19-26j0je.jpg?ixlib=rb-1.1.0&rect=0%2C11%2C3888%2C2572&q=20&auto=format&w=320&fit=clip&dpr=2&usm=12&cs=strip" alt="Swimming" width="350" height="300" style="border-radius:20px;">
+					<div class="title">
+							<h2 class="content">SWIMMING</h2>
+							<p>Swimming is observed as a sport or a recreational activity. 
+							Its main uses include lowering the body heat, relaxation, exercise as well as athletic training. 
+							Swimming done in spare time is a good way to relax. 
+							As the density of the human body is similar to that of water, bones and joins do not receive much stress</p>
+					</div>
+				</div>
+			</div>
+			<br><br>
+			
+			<!--bottom bar-->
+			<div class="bottomnav">
+				<div class="bottom">
+					<a href="#Home">Home</a> &nbsp; &nbsp;
+					<a href="About.html">About</a> &nbsp; &nbsp;
+					<a href="#Gallery">Gallery</a> &nbsp; &nbsp;
+					<a href="#Shop">Shop</a> &nbsp; &nbsp;
+					<a href="#Quiz">Quiz</a> &nbsp; &nbsp;
+					<a href="#Contact">Contact Us</a> &nbsp; &nbsp;
+					<a href="#Map">Site Map</a> &nbsp; &nbsp;
+				</div><br><br>
+				
+				<div class="social">
+
+					<a href="https://www.facebook.com/" target="_blank" id="facebook"><img src="https://github.com/Fathima456/git-test/blob/master/icons/facebook.png?raw=true" alt="facebook"></a> &nbsp; &nbsp; &nbsp;
+					<a href="https://www.instagram.com/" target="_blank" id="insta"><img src="https://github.com/Fathima456/git-test/blob/master/icons/INSTA.png?raw=true" alt="instagram"></a> &nbsp; &nbsp; &nbsp;
+					<a href="https://www.whatsapp.com/" target="_blank" id="whatsapp"><img src="https://github.com/Fathima456/git-test/blob/master/icons/whatsapp.png?raw=true" alt="whatsapp"></a> &nbsp; &nbsp; &nbsp;
+					<a href=""><img src="https://github.com/Fathima456/git-test/blob/master/icons/email.jpg?raw=true" alt="email"  id="em" height="62" width="62"> </a> &nbsp; &nbsp; &nbsp;
+					<a href="https://twitter.com/?lang=en" target="_blank" id="twitter">
+					<img src="https://github.com/Fathima456/git-test/blob/master/icons/Twitter.png?raw=true" alt="Twitter"></a> &nbsp; &nbsp; &nbsp;
+
+				
+				
+				</div><br><br>
+
+				<a href="#top" ><img src="https://github.com/Fathima456/git-test/blob/master/icons/arrow.jpeg?raw=true" alt="back to top" class="center" id="arrow"></a>
+
+				
+				<hr style="color:white">
+				
+				<p id="PE" style="color: white"><center>Page by &nbsp; <a href="D:\IIT\L4\SEMESTER 2\4COSC011C Web Design and Development\ASSIGNMENTS\ANSWERS\PAGE EDITOR\InduminiPE.html">Indumini Amarasena</center></a></p>
+				
+
+				
+			</div>
+			
+			
+		
+		
+			<!--mouseOver event listner and change the colour of the text and background-->
+			<script>
+				let isSelected = false;
+				window.onload = function(){
+					alert("Click an image to see a description");
+				}
+				
+				function changeColor(getColor){
+					let selectColor = getColor.value;
+					document.body.style.backgroundColor = selectColor;
+				}
+				function changeTxt(getColor){
+					let selectText = getColor.value;
+					document.body.style.color = selectText;
+				}
+				
+				function bigImg(x) {
+					x.style.height = "300px";
+					x.style.width = "250px";
+				}
+
+				function normalImg(x) {
+					x.style.height = "250px";
+					x.style.width = "200px";
+				}
+				
+				
+				document.getElementById("img1").addEventListener("click", function(){
+					if(!isSelected){
+					document.getElementById("bigpic1").style.display="block";
+					isSelected = true;
+					}else {
+					document.getElementById("bigpic1").style.display="none";
+					isSelected = false;
+					}
+				});				
+				
+				
+				document.getElementById("img2").addEventListener("click", function(){
+					if(!isSelected){
+					document.getElementById("bigpic2").style.display="block";
+					isSelected = true;
+					}else {
+					document.getElementById("bigpic2").style.display="none";
+					isSelected = false;
+					}
+				});	
+			   
+			   
+				document.getElementById("img3").addEventListener("click", function(){
+					if(!isSelected){
+					document.getElementById("bigpic3").style.display="block";
+					isSelected = true;
+					}else {
+					document.getElementById("bigpic3").style.display="none";
+					isSelected = false;
+					}
+				});	
+				
+				
+				document.getElementById("img4").addEventListener("click", function(){
+					if(!isSelected){
+					document.getElementById("bigpic4").style.display="block";
+					isSelected = true;
+					}else {
+					document.getElementById("bigpic4").style.display="none";
+					isSelected = false;
+					}
+				});	
+				
+				
+				document.getElementById("img5").addEventListener("click", function(){
+					if(!isSelected){
+					document.getElementById("bigpic5").style.display="block";
+					isSelected = true;
+					}else {
+					document.getElementById("bigpic5").style.display="none";
+					isSelected = false;
+					}
+				});	
+				
+				
+				document.getElementById("img6").addEventListener("click", function(){
+					if(!isSelected){
+					document.getElementById("bigpic6").style.display="block";
+					isSelected = true;
+					}else {
+					document.getElementById("bigpic6").style.display="none";
+					isSelected = false;
+					}
+				});	
+				
+				
+				document.getElementById("img7").addEventListener("click", function(){
+					if(!isSelected){
+					document.getElementById("bigpic7").style.display="block";
+					isSelected = true;
+					}else {
+					document.getElementById("bigpic7").style.display="none";
+					isSelected = false;
+					}
+				});	
+				
+				
+				document.getElementById("img8").addEventListener("click", function(){
+					if(!isSelected){
+					document.getElementById("bigpic8").style.display="block";
+					isSelected = true;
+					}else {
+					document.getElementById("bigpic8").style.display="none";
+					isSelected = false;
+					}
+				});	
+				
+			</script>
+			
+			
+			
+
+		
+		</body>
+	</html>
