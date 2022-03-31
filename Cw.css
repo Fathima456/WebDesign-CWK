@@ -165,9 +165,8 @@ h1{
 }
 
 
+/*CSS for the bottom division */
 
-/*CSS for bottom bar and bottom navigation*/		
-	
 .bottom{
     position:relative;
     bottom:0;
@@ -242,3 +241,6 @@ hr{height:3px;
 .bottomnav{
   background-color: black;
 }
+
+
+
