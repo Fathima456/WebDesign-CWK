@@ -96,14 +96,14 @@ h1{
 
 
 .row{
-	padding-left:1000px;
-	padding-right:300px;
+	/*padding-left:300px;
+	padding-right:300px;*/
 	display:flex;
-	/*float:left;*/
+	float:left;
 
         
         
-        
+        margin:auto;
 		width:50%;
         align-content:center ;
 		align-items:center;
