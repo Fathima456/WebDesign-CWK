@@ -100,7 +100,7 @@ h1{
 	float:left;
 	
 }
-/*
+
 
 	
 .image{
@@ -109,7 +109,7 @@ h1{
 	height:250px;
 	
 }
-
+/*
 .overlay{
 	position:absolute;
 	text-align:center;
