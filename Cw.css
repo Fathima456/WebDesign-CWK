@@ -93,13 +93,14 @@ h1{
     
 }
 <!--student details-->
+
+
 .row{
-	padding-left:300px;
-	padding-right:3000px;
+	padding-left:350px;
+	padding-right:300px;
 	display:flex;
 	float:left;
-	align-content:center;
-	align-items:center;
+	
 	
 }
 
