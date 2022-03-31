@@ -98,7 +98,7 @@ h1{
 .row{
 	padding-left:300px;
 	padding-right:300px;
-	
+	/*display:flex;*/
 	float:left;
 
         
