@@ -144,12 +144,12 @@ h1{
 	opacity:1;
 	
 }
-/*
+
 .overlay:hover>*{
 	transform:translateY(0);
 }
 
-
+/*
 .text{
 
 	font-size:1em;
