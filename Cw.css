@@ -113,8 +113,8 @@ h1{
 .overlay{
 	position:absolute;
 	text-align:center;
-	top:0;
-	left:0;
+	/*top:0;
+	left:0;*/
 	padding:10px;
 	background-color:rgba(0,0,0,0.6);
 	color:#fff;
@@ -132,14 +132,14 @@ h1{
 
 	
 }
-
+/*
 .overlay>*{
 	transform:translateY(20px);
 	transition:opacity 0.25s;
 	
 }
 
-/*
+
 .overlay:hover{
 	opacity:1;
 	
