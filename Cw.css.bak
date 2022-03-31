@@ -93,11 +93,14 @@ h1{
     
 }
 <!--student details-->
+
+
 .row{
-	padding-left:300px;
-	padding-right:3000px;
+	padding-left:350px;
+	padding-right:300px;
 	display:flex;
 	float:left;
+	
 	
 }
 
@@ -139,11 +142,12 @@ h1{
 	
 }
 
-/*
+
 .overlay:hover{
 	opacity:1;
 	
 }
+
 .overlay:hover>*{
 	transform:translateY(0);
 }
@@ -164,7 +168,7 @@ h1{
 	padding:10px;
 	width:200px;
 		
-}*/
+}
 
 
 /*CSS for the bottom division */
