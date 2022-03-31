@@ -1,0 +1,306 @@
+*{overflow-x:hidden;
+  text-decoration:none;
+  
+  
+
+}
+
+body { background-color: #C41919;
+color:black;
+font-family: 'Trebuchet MS', sans-serif;
+}
+
+/* CSS for main navigation */
+
+nav {
+    background-color: #C41919;
+    align-items: center;
+    padding: 14px 16px;
+    overflow: hidden;
+    margin-top: 0px;
+    
+
+	
+	
+}
+nav a {
+    padding: 40px;
+    text-align: center;
+   
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+	
+}
+
+
+@media screen and (max-width: 500px) {
+nav a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+  
+}
+
+.link:hover{
+      cursor:pointer;
+       background:black;
+       color:white;
+       padding: 40px;
+
+}
+
+#logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 8px;
+  height: 200px;
+  width: 200px;
+  margin-top: 10px;
+  
+}
+
+.fix{
+	align-items: center;
+    text-align: center;
+    align-content: center;
+	}
+
+
+
+.nav-auto div {
+	border: 2px solid #FFFFFF;
+	padding:5px;
+	border-radius:10px;
+	transition:1s;
+	margin-right:20px;
+	
+}
+
+.logoB{
+	background-color: #C41919;
+}
+
+
+/*Site map*/
+#stu4-title5{
+    
+    background-image: linear-gradient(#505050, #950101, #FF0000);
+    background-position: center;
+    background-size: 100%;
+    position: relative;
+    margin:0;
+
+}
+
+
+.Title5{
+	
+    padding-top:20px;
+    font-family:;'Trebuchet MS', sans-serif
+    font-size:70px ;
+    color:white;
+    text-align: center;
+    margin-top:40px;
+
+}
+
+
+#diagram{
+    
+	margin-top:0px;
+
+}
+
+
+#rec1, #rec2, #rec3, #rec4, #rec5, #rec6, #rec7{
+    
+	stroke: white;
+    stroke-width: 5;
+    stroke-opacity: 0.7;
+    fill:black;
+
+}
+
+
+#rec1:hover{
+    
+	stroke-opacity: 1.5;
+
+}
+
+
+#txt1, #txt2, #txt3, #txt4, #txt5, #txt6, #txt7{
+    
+	fill:white;
+    font-size: 20px;
+    font-weight: 400;
+    font-family:'Trebuchet MS', sans-serif;
+    text-anchor:middle;
+
+}
+
+
+#txt1:hover{
+
+    cursor: pointer;
+    font-weight: 900;
+
+}
+
+
+#txt2:hover{
+
+    cursor: pointer;
+    font-weight: 900;
+
+}
+
+
+#txt3:hover{
+
+    cursor: pointer;
+    font-weight: 900;
+
+}
+
+
+#txt4:hover{
+
+    cursor: pointer;
+    font-weight: 900;
+
+}
+
+
+#txt5:hover{
+
+    cursor: pointer;
+    font-weight: 900;
+
+}
+
+
+#txt6:hover{
+
+    cursor: pointer;
+    font-weight: 900;
+
+}
+
+
+#txt7:hover{
+
+    cursor: pointer;
+    font-weight: 900;
+
+}
+
+
+
+
+}
+
+
+#line1,#line2,#line3,#line4,#line5,#line6,#line7,#line8{
+
+	stroke:white;
+	stroke-width:5;
+
+}
+
+
+
+
+/*CSS for bottom bar and bottom navigation*/		
+	
+.column{
+	padding-left:1px;
+	padding-right:1px;
+	float:left;
+	text-align:center;
+	display:inline;
+	color:white;
+	margin-left:10px ;
+	margin-right: 10px;
+	width:30%;
+}
+ 
+
+
+.bottom{
+	position:relative;
+	bottom:0;
+	width:100%;
+    color: white;
+	text-align:center;
+	padding:30px;
+	color:white;
+	
+	
+}
+.social{
+	text-align:center;
+	color: white;
+
+	
+}
+
+ #facebook:hover,#insta:hover,  #whatsapp:hover,#em:hover, #twitter:hover {
+  animation: Zoom 1s ease infinite;
+}
+
+
+hr{height:3px;
+	color:white;
+	background-color:black;
+	border-width:0;
+}
+
+#last{text-align:center;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.bottom a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+ .bottom a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+ .bottom a:hover {
+  color: #C41919 ;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.bottom a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+
+#arrow{
+  filter: grayscale(100%);
+  height: 50px;
+  width: 50px;
+
+}
+
+.bottomnav{
+  background-color: black;
+  margin: 0;
+}
+
+
