@@ -1,0 +1,228 @@
+<!doctype html>
+	<html lang="en">
+
+		<head>
+			<meta charset="UTF-8">
+		<title> Anudi Perera </title>
+		<style>
+				*{
+					text-decoration: none;
+				}
+
+				/* styling of the body */
+				body{
+					list-style: none;
+					margin: 0;
+					padding: 0;
+					background: linear-gradient(to bottom, #000000 0%, #14000a 76%);
+					color:#fff;
+				}
+
+
+				/* styling of links */
+				a:link{
+					color: #ffcc00;
+				}
+
+				a:visited{
+					color: #ffcc00;
+				}
+
+				a:hover{
+					color: #c41919;
+				}
+
+				/* removing the bullet points in each and every list item */
+				ul{
+					list-style-type: none;
+				}
+
+				/* styling of the content */
+				.content{
+					display: flex;
+					flex-direction: row;
+					align-items: center;
+					backdrop-filter: blur(16px);
+					-webkit-backdrop-filter: blur(16px);
+					width: 920px;
+					height: auto;
+					margin-left: 18%;
+					margin-top: 5%;
+					margin-bottom: 5%;
+					border-radius: 20px;
+					background: linear-gradient(
+					25.6deg,
+					rgba(255, 255, 255, 0.192) 28.69%,
+					rgba(255, 255, 255, 0) 100%);
+					box-shadow: 0 0 20px 10px rgba(182, 182, 182, 0.1);
+				  
+				}
+
+				/* hover effect of the content */
+				.content:hover{
+					display: flex;
+					flex-direction: row;
+					align-items: center;
+					backdrop-filter: blur(16px);
+					-webkit-backdrop-filter: blur(16px);
+					width: 920px;
+					height: auto;
+					margin-left: 18%;
+					margin-top: 5%;
+					margin-bottom: 5%;
+					border-radius: 20px;
+					background: linear-gradient(
+					25.6deg,
+					rgba(218, 196, 196, 0.192) 28.69%,
+					rgba(53, 51, 51, 0) 100%);
+					box-shadow: 0 0 20px 10px rgba(182, 182, 182, 0.1);
+					color:#c41919;
+				  
+				}
+
+
+				/* styling of the main image */
+				#Student3-image{
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+					width:300px;
+					margin-top: 20px;
+					margin-left: 50px;
+					border-radius: 150px;
+				}
+
+
+				/* styling of the student3 name */
+				.Student3-main{
+					width:380px;
+					border-bottom: solid;
+					border-left: solid;
+					padding-left: 10px;
+
+				}
+				/* hover effect of the student3 name */
+				.Student3-main:hover{
+					width:380px;
+					border-bottom: solid;
+					transform: scale(1.1);
+					color:#fff;
+
+				}
+
+
+				/* styling of task list */
+				.Student3-tasks{
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+					width:380px;
+					border-bottom: solid;
+				}
+
+
+				/* hover effect of the task list */
+				.Student3-tasks:hover{
+					display: flex;
+					flex-direction: column;
+					align-items: center;
+					width:380px;
+					border-bottom: solid;
+					transform: scale(1.1);
+					color:#fff;
+				}
+
+
+				/* styling of task list items */
+				.tasks-list{
+					margin-left: 50px;
+				}
+
+				/* styling of the page */
+				.Student3-content{
+					display: flex;
+					flex-direction: column;
+					padding-left: 200px;
+					width:50%;
+				}
+
+				
+				#logo{
+					margin: 50px 50px;
+				}
+
+				#logo:hover{
+					margin: 50px 50px;
+					transform: scale(1.1);
+				}
+
+
+
+
+
+							
+						
+								
+			
+			
+		</style>
+		</head>
+		<body>
+		
+				
+				
+				<div class="content">
+				  <div class="Student3-content">
+					
+					  <img src="stud3 .jpeg" alt="student3 image" id="Student3-image"/>
+					
+					<div class="Student3-name">
+					  <h1 class="Student3-main">Anudi Perera<br>IIT ID: 20210401<br>UOW ID: W1867134</h1>
+					</div>
+
+					<!-- task details -->
+					<div class="Student3-tasks">
+					  <ul>
+						<li>
+						  <h2 class="Student3-contribution">
+							Contribution | Role: Student 3
+						  </h2>
+						  <ul class="tasks-list">
+							<li>
+							  <h3 class="Student3-tasks-list">
+								<a href="">Contribution to Main page and its CSS</a>
+							  </h3>
+							</li>
+							<li>
+							  <h3 class="Student3-tasks-list">
+								<a href="">Contribution to About Page and its CSS</a>
+							  </h3>
+							</li>
+							<li>
+							  <h3 class="Student3-tasks-list">
+								<a href="">Quiz page</a>
+							  </h3>
+							</li>
+							<li>
+							  <h3 class="Student3-tasks-list">
+								<a href="">Students Details page</a>
+							  </h3>
+							</li>
+							<li>
+							  <h3 class="Student3-tasks-list">
+								<a href="">Editors page</a>
+							  </h3>
+							</li
+						  </ul>
+						</li>
+								<!--logo -->
+							<img id="logo" src="logo.png" alt="team logo" />
+					  </ul>
+					</div>
+					</div>
+				</div>
+
+		</body>
+	</html>
+
+		
