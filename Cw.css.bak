@@ -139,11 +139,12 @@ h1{
 	
 }
 
-/*
+
 .overlay:hover{
 	opacity:1;
 	
 }
+/*
 .overlay:hover>*{
 	transform:translateY(0);
 }
