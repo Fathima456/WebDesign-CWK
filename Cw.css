@@ -132,14 +132,14 @@ h1{
 
 	
 }
-/*
+
 .overlay>*{
 	transform:translateY(20px);
 	transition:opacity 0.25s;
 	
 }
 
-
+/*
 .overlay:hover{
 	opacity:1;
 	
