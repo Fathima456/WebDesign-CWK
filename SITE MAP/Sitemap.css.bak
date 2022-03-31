@@ -80,6 +80,9 @@ nav a {
 	
 }
 
+.logoB{
+	background-color: #C41919;
+}
 
 
 /*Site map*/
