@@ -99,7 +99,7 @@ h1{
 	/*padding-left:300px;
 	padding-right:300px;*/
 	display:flex;
-	float:left;
+	/*float:left;*/
 
         
         
@@ -172,7 +172,7 @@ h1{
 
 .content_img{
 	position:relative;
-	float:left;
+	/*float:left;*/
 	display:block;
 	padding:10px;
 	width:200px;
