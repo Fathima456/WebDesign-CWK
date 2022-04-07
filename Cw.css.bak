@@ -7,7 +7,7 @@
 
 body { background-color: #C41919;
 color:black;
-font-family: 'Trebuchet MS', sans-serif;
+font-family:sans-serif;
 }
 
 /* CSS for main navigation */
@@ -176,6 +176,7 @@ h1{
 	display:block;
 	padding:10px;
 	width:200px;
+	align-content:center;
 		
 }
 
