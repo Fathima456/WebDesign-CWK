@@ -100,7 +100,7 @@ h1{
 	padding-right:300px;*/
 	display:flex;
 	float:left;
-	margin-left:500px;
+	margin-left:1000px;
 	margin-right:200px;
 
         
