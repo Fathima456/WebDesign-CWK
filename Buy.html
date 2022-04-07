@@ -372,8 +372,8 @@
 var quantityN = [];
   function addItemRowToCart(NameOfItem,PriceOfItem){
   	var cartRow = document.createElement('div');
-  	cartRow.classList.add('cart-row'); // adding cart-row class to created div
-  	var CartRowItems = document.getElementsByClassName('cart-items')[0];
+  	cartRow.classList.add('cart-row'); // adding empty cart-row class to created div
+  	var CartRowItems = document.getElementsByClassName('cart-items')[0];   //cart-items is an empty div 
 
   	var CartItemNames = document.getElementsByClassName('cart-item name');  //to prevent adding the same item to cart
   	for (let s = 0 ; s < CartItemNames.length; s++){
@@ -382,6 +382,7 @@ var quantityN = [];
   			alert("You have already added this item to the cart");
   			
   		}
+	
 
 
   	} //cart-row class 
@@ -430,9 +431,9 @@ var quantityN = [];
 
   function UpdateTotal() {
 
-  	var CartItemsContainer = document.getElementsByClassName('cart-items')[0];//same as CartRowItems. An empty class which add cart rows when add to cart btn is clicked
+  	var CartItemsContainer = document.getElementsByClassName('cart-items')[0];
   	console.log(CartItemsContainer);
-  	var CartRow = CartItemsContainer.getElementsByClassName('cart-row');//cart row was added above in line 763
+  	var CartRow = CartItemsContainer.getElementsByClassName('cart-row');
   	console.log(CartRow);
   	// console.log(CartRow.length); //length of cart row array increases as add to cart button is clicked  
   	Total = 0;
@@ -442,16 +443,16 @@ var quantityN = [];
   		// console.log(Price); 
   		var Justprice = Price.innerText.replace("$", "");  //to get only the number
   		// console.log(Justprice);
-  		var FloatPrice = parseFloat(Justprice);  //converts to integer
+  		var IntegerPrice = parseFloat(Justprice);  //converts to integer
   		var Quantity = Row.getElementsByClassName('cart-quantity-box')[0];
   		// console.log(Quantity);
   		QuantityValue = Quantity.value;
 
-  		Total = Total + (FloatPrice * QuantityValue); 
+  		Total = Total + (IntegerPrice * QuantityValue); 
   
   	}
 
-  	document.getElementsByClassName('cart-totalprice')[0].innerText = Total;
+  	document.getElementsByClassName('cart-totalprice')[0].innerText = "$" + (Math.round(Total * 100)/100);
 
   }
 
@@ -476,7 +477,6 @@ var quantityN = [];
 	const form = document.getElementById("form").value;
 	var CartItemNames = document.getElementsByClassName('cart-item name');
 	var NameOfItem = document.getElementsByClassName('Product')[0].innerText;
-  	console.log(NameOfItem);
   	var PriceOfItem = document.getElementsByClassName('ProductPrice')[0].innerText;
   	var Invoices = document.getElementsByClassName('invoice');
   	
@@ -538,12 +538,10 @@ var quantityN = [];
 		     	  
 		      	}
 		      else {
-		      	    // alert("Your Purchase was successful");
 		       	    var myform = document.getElementById('form');     //to print invoice
 				   	document.getElementById('displayname').innerHTML = "Name: " + name;
 				   	document.getElementById('emaildisplay').innerHTML = "Email: " + emailAddress;
 				   	document.getElementById('addressDisplay').innerHTML = "Address: " + Address;
-				   	 // document.getElementById('invoice').innerHTML = "Product: " + NameOfItem + " " + PriceOfItem;
                     console.log(Items.length);
                     
 				   	for (var z = 0; z < Items.length; z++){
