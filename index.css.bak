@@ -471,7 +471,7 @@ footer button.show{
 
 /*CSS for bottom bar and bottom navigation*/		
 	
-.column{
+/*.column{
 	padding-left:1px;
 	padding-right:1px;
 	float:left;
@@ -555,34 +555,5 @@ hr{height:3px;
 .bottomnav{
   background-color: black;
   margin: 0;
-}
+}*/
 
-/*CSS for page icons*/
-
-  .column a:link {
-  color: white;
-  background-color: transparent;
-  text-decoration: none;
-}
- .column a:visited {
-  color: white;
-  background-color: transparent;
-  text-decoration: none;
-}
- .column a:hover {
-  color: black;
-  background-color: transparent;
-  text-decoration: underline;
-}
-.column a:active {
-  color: white;
-  background-color: transparent;
-  text-decoration: underline;
-}
-
-
-
-* {box-sizing: border-box;}
-body {font-family: Verdana, sans-serif;}
-.mySlides {display: none;}
-img {vertical-align: middle;}
