@@ -565,6 +565,6 @@ hr{height:3px;
   background-color: black;
   margin: 0;
 bottom:0;
-margin-top:800px;
+margin-top:700px;
 }
 
