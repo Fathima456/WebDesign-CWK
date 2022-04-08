@@ -480,7 +480,7 @@ footer button.show{
 
 /*CSS for bottom bar and bottom navigation*/		
 	
-/*.column{
+.column{
 	padding-left:1px;
 	padding-right:1px;
 	float:left;
@@ -564,5 +564,5 @@ hr{height:3px;
 .bottomnav{
   background-color: black;
   margin: 0;
-}*/
+}
 
