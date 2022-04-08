@@ -112,6 +112,7 @@ body{
 .quiz_box,
 .result_box{
     position: absolute;
+	margin-top:550px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -141,7 +142,7 @@ body{
 }
 
 .info_box{
-	padding-top:500px;
+	
     width: 540px;
     background: #fff;
     border-radius: 5px;
@@ -200,7 +201,7 @@ body{
 }
 
 .quiz_box{
-	padding-top:500px;
+	
     width: 550px;
     background: #fff;
     border-radius: 5px;
