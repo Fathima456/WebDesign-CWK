@@ -128,6 +128,7 @@ function optionSelected(answer){
         console.log("Your correct answers = " + userScore);
     }else{
         answer.classList.add("incorrect"); //adding red color to correct selected option
+		userScore -= 1
         answer.insertAdjacentHTML("beforeend", crossIconTag); //adding cross icon to correct selected option
         console.log("Wrong Answer");
 
