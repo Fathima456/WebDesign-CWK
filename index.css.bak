@@ -4,6 +4,12 @@
     padding: 0;
     box-sizing: border-box;
     font-family:sans-serif;
+	overflow-x:hidden;
+  text-decoration:none;
+  
+  
+
+
 }
 
 /* CSS for main navigation */
