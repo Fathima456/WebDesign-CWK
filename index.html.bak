@@ -2,108 +2,106 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NDure | Quiz</title>
     <link rel="stylesheet" href="index.css">
-	<script src="https://kit.fontawesome.com/2cfe7c43ea.js" crossorigin="anonymous"></script>
+    <!-- Link for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+	<link rel="icon" type="image/x-icon" href="logo.png">
 </head>
 <body>
+
+<!-- Navigation bar-->
+    
+    <a id="top"></a>
+   
+        <div class="fix" >
+        	<img id = "logo" src="logo.png" alt="logo"><br>
+            <nav  >
+               
+                <a href="HomePage.html" class="link">Home</a>
+                <a href="About.html" class="link">About</a>
+                <a href="Gallery/Gallery.html" class="link">Gallery</a>
+                <a href="Buy.html" class="link">Shop</a>
+                <a href="index.html" class="link">Quiz</a>
+                <a href="query.html" class="link">Contact Us</a>
+				<a href="CW.html" class="link">Our Team</a>
+	
+           
+            </nav>
+        </div><br><br>
+
+
+
+
+
+    <!-- start Quiz button -->
     <div class="start_btn"><button>Start Quiz</button></div>
-	
-	<div class="info_box">
-		<div class="info_title">
-			<span>Rules of this quiz</span>
-		</div>
-		<div class="info_list">
-			<div class="info">1.Quiz consists of 10 questions</div>
-			<div class="info">2.You have 60 seconds to answer</div>
-			<div class="info">3.You will get 2 marks for each correct answer, -1 for wrong answer</div>
-			
-		</div>
-		
-		<div class="buttons">
-			<button class="quit">Exit</button>
-			<button class="restart">continue</button>
-		</div>
-	</div>
-	
-	<div class="quiz_box">
-		<header>
-			<div class="title">Quiz</div>
-			<div class="timer">
-				<div class="time_text">Time Left</div>
-				<div class="timer_sec">60</div>
-			</div>
-			<div class="time_line"</div>
-		</header>
-		<section>
-			<div class="que_text">
-				<span>No of players in a cricket team.<span>
-			</div>
-			<div class="option_list">
-				<div class="option">
-					<span>10<span>
-					<div class="icon cross"><i class="fa-solid fa-xmark"></i></div>
-				</div>
-				<div class="option">
-					<span>12<span>
-					<div class="icon cross"><i class="fa-solid fa-xmark"></i></div>
-				</div>
-				<div class="option">
-					<span>11<span>
-					<div class="icon tick"><i class="fa-solid fa-check"></i></div>
-				</div>
-				<div class="option">
-					<span>9<span>
-					<div class="icon cross"><i class="fa-solid fa-xmark"></i></div>
-				</div>
-			</div>
-		</section>
-		<!--Quiz box footer-->
-		<footer>
-			<div class="total_que">
-				<span><p>2</p>of<p>10</p>Questions</span>
-			</div>
-			<button class="next_btn">Next Question</button>
-		</footer>
-			
-			
-			
-	</div>
-	
-	<!--result box-->
-	<div class="result_box">
-		<div class="icon">
-			<i class="fa-solid fa-trophy-star"></i>
-		</div>
-		<div class="complete_text">You've completed the quiz!"</div>
-		<div class="score_text">
-			<span>and sorry, You got only<p>2</p>out of<p>10</p></span>
-		</div>
-		<div class="buttons">
-			<button class="restart">Replay</button>
-			<button class="quit"</button>
-		</div>
-		
-		
-		
-		
-		
-		
-	</div>
-			
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	<script src="JS1.js"></script>
+
+    <!-- Info Box -->
+    <div class="info_box">
+        <div class="info-title"><span>Rules of this Quiz</span></div>
+        <div class="info-list">
+            <div class="info">1.Quiz consists of 10 questions</div>
+            <div class="info">2.You have 60 seconds to answer</div>
+            <div class="info">3.You will get 2 marks for each correct answer, -1 for wrong answer</div>
+           
+        </div>
+        <div class="buttons">
+            <button class="quit">Exit Quiz</button>
+            <button class="restart">Continue</button>
+        </div>
+    </div>
+
+    <!-- Quiz Box -->
+    <div class="quiz_box">
+        <header>
+            <div class="title">Quiz</div>
+            <div class="timer">
+                <div class="time_left_txt">Time Left</div>
+                <div class="timer_sec">60</div>
+            </div>
+            <div class="time_line"></div>
+        </header>
+        <section>
+            <div class="que_text">
+                <!-- questions from JavaScript -->
+            </div>
+            <div class="option_list">
+                <!-- options from JavaScript -->
+            </div>
+        </section>
+
+        <!-- footer of Quiz Box -->
+        <footer>
+            <div class="total_que">
+                <!-- Question Count Number from JavaScript -->
+            </div>
+            <button class="next_btn">Next Que</button>
+        </footer>
+    </div>
+
+    <!-- Result Box -->
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_text">You've completed the Quiz!</div>
+        <div class="score_text">
+            <!-- Score Result from JavaScript -->
+        </div>
+        <div class="buttons">
+            <button class="restart">Replay Quiz</button>
+            <button class="quit">Quit Quiz</button>
+        </div>
+    </div>
+
+    <!-- JavaScript Questions and Options -->
+    <script src="JS1.js"></script>
+
+    <!-- JavaScript Quiz Codes -->
     <script src="index.js"></script>
+
 </body>
+</html>
 </html>
