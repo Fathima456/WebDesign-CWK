@@ -141,6 +141,7 @@ body{
 }
 
 .info_box{
+	padding-top:500px;
     width: 540px;
     background: #fff;
     border-radius: 5px;
@@ -199,6 +200,7 @@ body{
 }
 
 .quiz_box{
+	padding-top:500px;
     width: 550px;
     background: #fff;
     border-radius: 5px;
